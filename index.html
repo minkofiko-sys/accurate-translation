@@ -13,8 +13,8 @@
     <!-- =================================================== -->
     <!-- SEO TITLE & DESCRIPTION -->
     <!-- =================================================== -->
-    <title>الترجمة المعتمدة في القاهرة | مكتب ترجمة معتمد للسفارات والجهات الحكومية | Accurate Translation Agency</title>
-    <meta name="description" content="مكتب الترجمة المعتمد في القاهرة – مصر الجديدة – نقدم ترجمة معتمدة للسفارات والجهات الحكومية. ترجمة قانونية، طبية، عقود، شهادات، جوازات سفر بأكثر من 10 لغات. خدمة سريعة وسرية تامة.">
+    <title id="page-title">الترجمة المعتمدة في القاهرة | مكتب ترجمة معتمد للسفارات والجهات الحكومية | Accurate Translation Agency</title>
+    <meta name="description" id="page-description" content="مكتب الترجمة المعتمد في القاهرة – مصر الجديدة – نقدم ترجمة معتمدة للسفارات والجهات الحكومية. ترجمة قانونية، طبية، عقود، شهادات، جوازات سفر بأكثر من 10 لغات. خدمة سريعة وسرية تامة.">
     <meta name="robots" content="index, follow">
 
     <!-- =================================================== -->
@@ -26,8 +26,8 @@
     <!-- OPEN GRAPH -->
     <!-- =================================================== -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="الترجمة المعتمدة في القاهرة | مكتب ترجمة معتمد | Accurate Translation">
-    <meta property="og:description" content="مكتب الترجمة المعتمد في القاهرة – مصر الجديدة – نقدم ترجمة معتمدة للسفارات والجهات الحكومية. ترجمة قانونية، طبية، عقود، شهادات، جوازات سفر بأكثر من 10 لغات.">
+    <meta property="og:title" id="og-title" content="الترجمة المعتمدة في القاهرة | مكتب ترجمة معتمد | Accurate Translation">
+    <meta property="og:description" id="og-description" content="مكتب الترجمة المعتمد في القاهرة – مصر الجديدة – نقدم ترجمة معتمدة للسفارات والجهات الحكومية. ترجمة قانونية، طبية، عقود، شهادات، جوازات سفر بأكثر من 10 لغات.">
     <meta property="og:url" content="https://accuratetranslation.net/">
     <meta property="og:image" content="https://accuratetranslation.net/images/AccurateTranslationAgency.png">
     <meta property="og:image:alt" content="شعار شركة أكيوريت للترجمة المعتمدة - Accurate Translation Agency">
@@ -38,16 +38,14 @@
     <!-- TWITTER CARD -->
     <!-- =================================================== -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="الترجمة المعتمدة في القاهرة | مكتب ترجمة معتمد | Accurate Translation">
-    <meta name="twitter:description" content="مكتب الترجمة المعتمد في القاهرة – مصر الجديدة – نقدم ترجمة معتمدة للسفارات والجهات الحكومية.">
+    <meta name="twitter:title" id="twitter-title" content="الترجمة المعتمدة في القاهرة | مكتب ترجمة معتمد | Accurate Translation">
+    <meta name="twitter:description" id="twitter-description" content="مكتب الترجمة المعتمد في القاهرة – مصر الجديدة – نقدم ترجمة معتمدة للسفارات والجهات الحكومية.">
     <meta name="twitter:image" content="https://accuratetranslation.net/images/AccurateTranslationAgency.png">
     <meta name="twitter:image:alt" content="شعار شركة أكيوريت للترجمة المعتمدة">
 
     <!-- =================================================== -->
-    <!-- STRUCTURED DATA (JSON-LD) -->
+    <!-- STRUCTURED DATA (JSON-LD) - يبقى كما هو -->
     <!-- =================================================== -->
-    
-    <!-- Organization Schema -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -63,17 +61,10 @@
             "streetAddress": "18 Ibrahim Street, Al Korba, Heliopolis",
             "addressLocality": "Cairo",
             "addressCountry": "EG"
-        },
-        "founders": [
-            {
-                "@type": "Person",
-                "name": "Accurate Translation Team"
-            }
-        ]
+        }
     }
     </script>
 
-    <!-- LocalBusiness Schema -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -99,90 +90,16 @@
             "longitude": 31.3289
         },
         "areaServed": [
-            {
-                "@type": "City",
-                "name": "Cairo"
-            },
-            {
-                "@type": "City",
-                "name": "Heliopolis"
-            },
-            {
-                "@type": "City",
-                "name": "Korba"
-            },
-            {
-                "@type": "Country",
-                "name": "Egypt"
-            }
+            { "@type": "City", "name": "Cairo" },
+            { "@type": "City", "name": "Heliopolis" },
+            { "@type": "City", "name": "Korba" },
+            { "@type": "Country", "name": "Egypt" }
         ],
         "priceRange": "$$",
         "openingHours": "Sa-Th 09:00-18:00"
     }
     </script>
 
-    <!-- Service Schema -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "serviceType": "Certified Translation",
-        "provider": {
-            "@type": "LocalBusiness",
-            "name": "Accurate Translation Agency"
-        },
-        "areaServed": {
-            "@type": "Country",
-            "name": "Egypt"
-        },
-        "description": "خدمات ترجمة معتمدة للسفارات والجهات الحكومية في القاهرة ومصر الجديدة والكوربة",
-        "offers": {
-            "@type": "Offer",
-            "priceCurrency": "EGP",
-            "price": "0",
-            "availability": "https://schema.org/InStock"
-        }
-    }
-    </script>
-
-    <!-- WebSite Schema -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebSite",
-        "name": "Accurate Translation Agency",
-        "url": "https://accuratetranslation.net/",
-        "potentialAction": {
-            "@type": "SearchAction",
-            "target": "https://accuratetranslation.net/?q={search_term_string}",
-            "query-input": "required name=search_term_string"
-        }
-    }
-    </script>
-
-    <!-- BreadcrumbList Schema -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-            {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "الرئيسية",
-                "item": "https://accuratetranslation.net/"
-            },
-            {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "الترجمة المعتمدة",
-                "item": "https://accuratetranslation.net/"
-            }
-        ]
-    }
-    </script>
-
-    <!-- FAQPage Schema -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -193,7 +110,7 @@
                 "name": "ما هي الترجمة المعتمدة؟",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "الترجمة المعتمدة هي ترجمة موثقة ومختومة من مكتب ترجمة معتمد، ومعترف بها رسميًا من قبل السفارات والجهات الحكومية في مصر وخارجها. تخضع هذه الترجمات لمعايير دقيقة وتكون مصحوبة بختم وتوقيع المترجم المعتمد."
+                    "text": "الترجمة المعتمدة هي ترجمة موثقة ومختومة من مكتب ترجمة معتمد، ومعترف بها رسميًا من قبل السفارات والجهات الحكومية في مصر وخارجها."
                 }
             },
             {
@@ -201,7 +118,7 @@
                 "name": "هل الترجمة المعتمدة مقبولة لدى السفارات والجهات الحكومية؟",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "نعم، جميع ترجماتنا معتمدة ومختومة ومعترف بها لدى معظم السفارات والجهات الحكومية في القاهرة ومصر. نوصي بالتواصل مع الجهة المستلمة للتأكد من متطلباتها الخاصة للترجمة المعتمدة."
+                    "text": "نعم، جميع ترجماتنا معتمدة ومختومة ومعترف بها لدى معظم السفارات والجهات الحكومية في القاهرة ومصر."
                 }
             },
             {
@@ -209,7 +126,7 @@
                 "name": "كم سعر الترجمة المعتمدة في القاهرة؟",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "تختلف تكلفة الترجمة المعتمدة حسب عدة عوامل تشمل نوع المستند وعدد الكلمات واللغة المطلوبة وسرعة التسليم المطلوبة. للاستعلام عن سعر دقيق، يرجى التواصل معنا عبر واتساب أو الهاتف مع إرسال المستند المطلوب ترجمته."
+                    "text": "تختلف تكلفة الترجمة المعتمدة حسب عدة عوامل تشمل نوع المستند وعدد الكلمات واللغة المطلوبة وسرعة التسليم المطلوبة."
                 }
             },
             {
@@ -217,79 +134,7 @@
                 "name": "كم تستغرق ترجمة المستندات المعتمدة؟",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "تختلف مدة الترجمة حسب حجم المستند وتعقيده. نقدم خدمة الترجمة العاجلة خلال 24 ساعة للمستندات القصيرة والمتوسطة، والخدمة العادية يتم تحديدها حسب الاتفاق مع العميل مع مراعاة الدقة والجودة."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "هل تقدمون ترجمة عاجلة للمستندات؟",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "نعم، نوفر خدمة الترجمة العاجلة للمستندات التي تحتاج إلى تسليم سريع. يمكننا إنجاز الترجمة في غضون 24 ساعة أو حسب الاتفاق مع العميل، مع الحفاظ على أعلى معايير الجودة والدقة."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "ما هي اللغات التي تقدمونها في الترجمة؟",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "نقدم خدمات الترجمة من وإلى أكثر من 10 لغات تشمل العربية، الإنجليزية، الفرنسية، الألمانية، الإيطالية، الإسبانية، الروسية، الصينية، اليابانية، التركية، والبرتغالية. كما نوفر ترجمة بين أزواج لغوية متعددة حسب احتياجات العميل."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "هل يمكن إرسال المستندات عبر واتساب للترجمة؟",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "نعم، يمكنك إرسال المستندات المطلوب ترجمتها عبر واتساب بكل سهولة وأمان. نضمن سرية جميع المستندات التي تصلنا، ويمكنك متابعة حالة طلبك عبر نفس القناة."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "هل تقدمون ترجمة قانونية معتمدة؟",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "نعم، لدينا مترجمون قانونيون معتمدون لتقديم ترجمة قانونية دقيقة وموثقة للعقود، والتوكيلات، والمحاضر القضائية، والأحكام، والاتفاقيات التجارية، وجميع المستندات القانونية الأخرى."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "هل تقدمون ترجمة طبية معتمدة؟",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "نعم، نوفر ترجمة معتمدة للتقارير الطبية، والتحاليل، والأشعة، والملفات الطبية، والوصفات الطبية، والتاريخ المرضي، وجميع المستندات الطبية بدقة عالية من قبل مترجمين متخصصين في المجال الطبي."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "هل يمكن ترجمة جواز السفر؟",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "نعم، نقدم ترجمة معتمدة لجوازات السفر وجميع أوراق السفر والهجرة باللغات المطلوبة. هذه الترجمة معتمدة وخاضعة لمعايير السفارات والجهات الرسمية."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "أين يوجد مكتب الترجمة المعتمد في القاهرة؟",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "يقع مكتبنا الرئيسي في 18 شارع إبراهيم، الكوربة، مصر الجديدة، القاهرة. نخدم العملاء في القاهرة ومصر الجديدة والكوربة وجميع مناطق القاهرة الكبرى، بالإضافة إلى تقديم خدماتنا عبر الإنترنت للعملاء في جميع أنحاء مصر."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "هل تقدمون ترجمة شهادات الميلاد والزواج؟",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "نعم، نوفر ترجمة معتمدة لشهادات الميلاد والزواج والطلاق والوفاة وجميع المستندات الشخصية. هذه الترجمات معترف بها لدى السفارات والمكاتب الحكومية، وتتم بدقة متناهية لضمان مطابقتها للأصل."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "هل تقدمون ترجمة عقود واتفاقيات تجارية؟",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "نعم، لدينا فريق متخصص في ترجمة العقود التجارية، واتفاقيات الشركات، وعقود العمل، وعقود الإيجار، وجميع الوثائق التجارية باللغتين العربية والإنجليزية واللغات الأخرى، مع مراعاة الدقة القانونية والاصطلاحية."
+                    "text": "تختلف مدة الترجمة حسب حجم المستند وتعقيده. نقدم خدمة الترجمة العاجلة خلال 24 ساعة للمستندات القصيرة والمتوسطة."
                 }
             }
         ]
@@ -306,9 +151,6 @@
     <!-- =================================================== -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-5C7Q0VEKF0"></script>
     <script>
-        // ============================================================
-        // GA4 INITIALIZATION
-        // ============================================================
         window.dataLayer = window.dataLayer || [];
         function gtag(){ window.dataLayer.push(arguments); }
         gtag('js', new Date());
@@ -320,7 +162,7 @@
         });
 
         // ============================================================
-        // 1. CAMPAIGN / UTM / GCLID PERSISTENCE
+        // CAMPAIGN / UTM / GCLID PERSISTENCE
         // ============================================================
         (function() {
             try {
@@ -343,7 +185,6 @@
                     localStorage.setItem('_ac_utm', JSON.stringify(stored));
                 }
 
-                // ربط البيانات مع gtag
                 const campaignData = JSON.parse(localStorage.getItem('_ac_utm') || '{}');
                 if (Object.keys(campaignData).length > 0) {
                     gtag('set', 'campaign', {
@@ -355,204 +196,43 @@
                         gclid: campaignData.gclid || undefined
                     });
                 }
-            } catch(e) {
-                // تجاهل أخطاء localStorage
-            }
+            } catch(e) {}
         })();
 
-        // ============================================================
-        // 2. CENTRAL EVENT TRACKING FUNCTION
-        // ============================================================
         function trackEvent(eventName, parameters) {
             try {
                 const campaignData = JSON.parse(localStorage.getItem('_ac_utm') || '{}');
                 const mergedParams = { ...parameters, ...campaignData };
-
                 if (typeof gtag === 'function') {
                     gtag('event', eventName, mergedParams);
                 }
-
                 if (window.dataLayer) {
-                    window.dataLayer.push({
-                        event: eventName,
-                        ...mergedParams
-                    });
+                    window.dataLayer.push({ event: eventName, ...mergedParams });
                 }
-
-                if (window.console && window.console.log) {
-                    console.log('[Track]', eventName, mergedParams);
-                }
-            } catch(e) {
-                // تجاهل الأخطاء
-            }
+            } catch(e) {}
         }
-
-        // ============================================================
-        // 3. TRACKING HELPER FOR BUTTONS
-        // ============================================================
-        function setupTracking(selector, eventName, locationParam) {
-            document.querySelectorAll(selector).forEach(el => {
-                el.addEventListener('click', function(e) {
-                    let location = locationParam || 'unknown';
-                    if (this.closest('.hero') || this.closest('#hero')) location = 'hero';
-                    else if (this.closest('.contact-section') || this.closest('#contact')) location = 'contact';
-                    else if (this.closest('footer')) location = 'footer';
-                    else if (this.closest('.floating-buttons')) location = 'floating';
-                    else if (this.closest('header')) location = 'header';
-                    else if (this.closest('.services-section')) location = 'services';
-                    else if (this.closest('.faq-section')) location = 'faq';
-
-                    if (this.dataset.location) location = this.dataset.location;
-
-                    const lang = document.documentElement.lang || 'ar';
-
-                    trackEvent(eventName, {
-                        location: location,
-                        button_name: this.innerText.trim() || this.getAttribute('aria-label') || 'button',
-                        page_language: lang
-                    });
-                });
-            });
-        }
-
-        // ============================================================
-        // 4. APPLY TRACKING TO ALL BUTTONS
-        // ============================================================
-        document.addEventListener('DOMContentLoaded', function() {
-            // WhatsApp Buttons
-            setupTracking('a[href*="wa.me"], a[href*="whatsapp"]', 'whatsapp_click');
-
-            // Phone Buttons
-            setupTracking('a[href^="tel:"]', 'phone_click');
-
-            // Quote Buttons
-            setupTracking('a[href="#contact"], .btn-primary[href="#contact"]', 'quote_click');
-
-            // Map Buttons
-            setupTracking('a[href*="maps.google"], a[href*="google.com/maps"]', 'map_click');
-
-            // ============================================================
-            // 5. SCROLL DEPTH / SECTION VIEWS
-            // ============================================================
-            const sections = ['#services', '#why', '#languages', '#faq', '#contact', '#about'];
-            const observed = {};
-
-            const sectionObserver = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting && !observed[entry.target.id]) {
-                        observed[entry.target.id] = true;
-                        trackEvent('section_view', {
-                            section_id: entry.target.id || 'unknown',
-                            section_name: entry.target.id || 'unknown'
-                        });
-                    }
-                });
-            }, { threshold: 0.3 });
-
-            sections.forEach(sel => {
-                const el = document.querySelector(sel);
-                if (el) {
-                    sectionObserver.observe(el);
-                }
-            });
-
-            // ============================================================
-            // 6. FAQ VIEW
-            // ============================================================
-            document.querySelectorAll('.faq-item .faq-question').forEach(q => {
-                q.addEventListener('click', function() {
-                    const parent = this.closest('.faq-item');
-                    setTimeout(() => {
-                        if (parent.classList.contains('active')) {
-                            const questionText = this.innerText.trim().replace(/[↓↑▼▾]/g, '').trim();
-                            trackEvent('faq_click', {
-                                question: questionText,
-                                answer_visible: true
-                            });
-                        }
-                    }, 50);
-                });
-            });
-
-            // ============================================================
-            // 7. LANGUAGE SWITCH TRACKING
-            // ============================================================
-            document.querySelectorAll('.lang-toggle span').forEach(span => {
-                span.addEventListener('click', function() {
-                    const lang = this.dataset.lang;
-                    trackEvent('language_switch', {
-                        target_language: lang,
-                        current_language: document.documentElement.lang
-                    });
-                });
-            });
-
-            // ============================================================
-            // 8. EXIT INTENT TRACKING
-            // ============================================================
-            let exitIntentTriggered = false;
-            document.addEventListener('mouseleave', function(e) {
-                if (e.clientY < 0 && !exitIntentTriggered) {
-                    exitIntentTriggered = true;
-                    trackEvent('exit_intent', {
-                        page_language: document.documentElement.lang || 'ar'
-                    });
-                }
-            });
-
-            // ============================================================
-            // 9. TIME ON PAGE TRACKING
-            // ============================================================
-            let timeOnPageStarted = Date.now();
-            window.addEventListener('beforeunload', function() {
-                const timeSpent = Math.round((Date.now() - timeOnPageStarted) / 1000);
-                if (timeSpent > 10) {
-                    trackEvent('time_on_page', {
-                        seconds_spent: timeSpent,
-                        page_language: document.documentElement.lang || 'ar'
-                    });
-                }
-            });
-
-            console.log('✅ Accurate Translation Agency - Tracking Initialized');
-        });
-
     </script>
 
     <!-- ============================================================ -->
-    <!-- STYLES -->
+    <!-- STYLES (نفس التصميم الأصلي) -->
     <!-- ============================================================ -->
     <style>
         /* Reset & Base */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
             background: #ffffff;
             color: #1a1a2e;
             line-height: 1.6;
-            transition: all 0.3s ease;
         }
-        a {
-            text-decoration: none;
-            color: inherit;
-        }
+        a { text-decoration: none; color: inherit; }
         .container {
             max-width: 1200px;
             margin: 0 auto;
             padding: 0 20px;
         }
-        html[dir="ltr"] {
-            direction: ltr;
-            text-align: left;
-        }
-        html[dir="rtl"] {
-            direction: rtl;
-            text-align: right;
-        }
+        html[dir="ltr"] { direction: ltr; text-align: left; }
+        html[dir="rtl"] { direction: rtl; text-align: right; }
 
         :root {
             --primary-dark: #0A2540;
@@ -563,13 +243,6 @@
             --shadow: 0 15px 40px rgba(10, 37, 64, 0.08);
             --border-radius: 20px;
             --transition: 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-        }
-
-        .glass {
-            background: rgba(255, 255, 255, 0.7);
-            backdrop-filter: blur(12px);
-            -webkit-backdrop-filter: blur(12px);
-            border: 1px solid rgba(255, 255, 255, 0.25);
         }
 
         .btn-primary {
@@ -642,10 +315,7 @@
             max-width: 180px;
             object-fit: contain;
         }
-        .logo span {
-            color: var(--gold);
-            font-weight: 300;
-        }
+        .logo span { color: var(--gold); font-weight: 300; }
         nav {
             display: flex;
             align-items: center;
@@ -670,9 +340,7 @@
             background: var(--gold);
             transition: 0.3s;
         }
-        nav a:hover::after {
-            width: 100%;
-        }
+        nav a:hover::after { width: 100%; }
         .lang-toggle {
             display: flex;
             gap: 6px;
@@ -715,7 +383,6 @@
         .hero-logo-section .logo-animated {
             display: inline-block;
             animation: logoFloat 3s ease-in-out infinite, logoGlow 2s ease-in-out infinite alternate;
-            transition: all 0.3s ease;
         }
         .hero-logo-section .logo-animated img {
             height: 140px;
@@ -738,15 +405,12 @@
             color: var(--primary-dark);
             margin-top: 10px;
         }
-        .hero-logo-section .logo-title span {
-            color: var(--gold);
-        }
+        .hero-logo-section .logo-title span { color: var(--gold); }
         .hero-logo-section .logo-sub {
             color: #5a6a7a;
             font-size: 1.1rem;
             margin-top: 4px;
         }
-
         .hero-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -761,9 +425,7 @@
             color: var(--primary-dark);
             margin-bottom: 20px;
         }
-        .hero-content h1 i {
-            color: var(--gold);
-        }
+        .hero-content h1 i { color: var(--gold); }
         .hero-content p {
             font-size: 1.1rem;
             color: #3a4a5f;
@@ -824,7 +486,6 @@
             color: var(--gold);
             margin-bottom: 6px;
         }
-
         .section-title {
             font-size: 2.5rem;
             font-weight: 700;
@@ -840,9 +501,7 @@
         }
 
         /* About */
-        .about-section {
-            padding: 80px 0;
-        }
+        .about-section { padding: 80px 0; }
         .about-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -878,15 +537,10 @@
             color: var(--gold);
             margin-bottom: 16px;
         }
-        .service-card h4 {
-            font-size: 1rem;
-            color: var(--primary-dark);
-        }
+        .service-card h4 { font-size: 1rem; color: var(--primary-dark); }
 
         /* Why Us */
-        .why-section {
-            padding: 80px 0;
-        }
+        .why-section { padding: 80px 0; }
         .why-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -900,17 +554,12 @@
             transition: var(--transition);
             text-align: center;
         }
-        .why-item:hover {
-            transform: scale(1.02);
-        }
+        .why-item:hover { transform: scale(1.02); }
         .why-item i {
             font-size: 2.2rem;
             color: var(--gold);
         }
-        .why-item h4 {
-            margin-top: 8px;
-            color: var(--primary-dark);
-        }
+        .why-item h4 { margin-top: 8px; color: var(--primary-dark); }
 
         /* Languages */
         .languages-section {
@@ -938,15 +587,12 @@
         }
 
         /* Timeline */
-        .timeline-section {
-            padding: 80px 0;
-        }
+        .timeline-section { padding: 80px 0; }
         .timeline {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
             gap: 20px 40px;
-            position: relative;
         }
         .step {
             display: flex;
@@ -967,10 +613,7 @@
             font-size: 1.3rem;
             margin-bottom: 8px;
         }
-        .step span {
-            font-weight: 500;
-            text-align: center;
-        }
+        .step span { font-weight: 500; text-align: center; }
 
         /* Stats */
         .stats-section {
@@ -989,15 +632,10 @@
             font-weight: 700;
             color: var(--gold);
         }
-        .stat-label {
-            font-size: 0.95rem;
-            opacity: 0.8;
-        }
+        .stat-label { font-size: 0.95rem; opacity: 0.8; }
 
         /* FAQ */
-        .faq-section {
-            padding: 80px 0;
-        }
+        .faq-section { padding: 80px 0; }
         .faq-item {
             border-bottom: 1px solid #e0e4e8;
             padding: 18px 0;
@@ -1015,9 +653,7 @@
             transition: 0.3s;
             color: var(--gold);
         }
-        .faq-item.active .faq-question i {
-            transform: rotate(180deg);
-        }
+        .faq-item.active .faq-question i { transform: rotate(180deg); }
         .faq-answer {
             max-height: 0;
             overflow: hidden;
@@ -1071,9 +707,7 @@
             color: var(--gold);
             margin-bottom: 20px;
         }
-        .contact-card h3 {
-            color: var(--primary-dark);
-        }
+        .contact-card h3 { color: var(--primary-dark); }
         .contact-card p {
             color: #5a6a7a;
             margin-top: 10px;
@@ -1102,9 +736,7 @@
             border: none;
             cursor: pointer;
         }
-        .floating-btn:hover {
-            transform: scale(1.1);
-        }
+        .floating-btn:hover { transform: scale(1.1); }
         .floating-btn.whatsapp {
             background: #25D366;
             color: white;
@@ -1134,17 +766,13 @@
             font-weight: 700;
             color: white;
         }
-        .footer-logo span {
-            color: var(--gold);
-        }
+        .footer-logo span { color: var(--gold); }
         .footer-links a {
             display: block;
             margin: 6px 0;
             transition: 0.2s;
         }
-        .footer-links a:hover {
-            color: var(--gold);
-        }
+        .footer-links a:hover { color: var(--gold); }
         .copy {
             border-top: 1px solid rgba(255,255,255,0.1);
             padding-top: 20px;
@@ -1166,86 +794,32 @@
 
         /* Responsive */
         @media (max-width: 992px) {
-            .hero-grid, .about-grid, .contact-grid {
-                grid-template-columns: 1fr;
-            }
-            .hero-content h1 {
-                font-size: 2.5rem;
-            }
-            nav {
-                gap: 12px;
-            }
-            .header-inner {
-                flex-direction: column;
-                align-items: center;
-            }
-            .hero-logo-section .logo-animated img {
-                height: 100px;
-                max-width: 200px;
-            }
-            .hero-logo-section .logo-title {
-                font-size: 1.8rem;
-            }
+            .hero-grid, .about-grid, .contact-grid { grid-template-columns: 1fr; }
+            .hero-content h1 { font-size: 2.5rem; }
+            nav { gap: 12px; }
+            .header-inner { flex-direction: column; align-items: center; }
+            .hero-logo-section .logo-animated img { height: 100px; max-width: 200px; }
+            .hero-logo-section .logo-title { font-size: 1.8rem; }
         }
         @media (max-width: 600px) {
-            .header-inner {
-                flex-direction: column;
-                gap: 12px;
-            }
-            .hero-content h1 {
-                font-size: 2rem;
-            }
-            .floating-buttons {
-                bottom: 16px;
-                left: 16px;
-            }
-            .floating-btn {
-                width: 48px;
-                height: 48px;
-                font-size: 1.4rem;
-            }
-            .logo img {
-                height: 40px;
-                max-width: 140px;
-            }
-            nav a {
-                font-size: 0.85rem;
-            }
-            .cta-header .btn-primary {
-                padding: 8px 16px;
-                font-size: 0.8rem;
-            }
-            .services-grid {
-                grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-            }
-            .trust-grid {
-                grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-            }
-            .hero-logo-section .logo-animated img {
-                height: 80px;
-                max-width: 160px;
-            }
-            .hero-logo-section .logo-title {
-                font-size: 1.4rem;
-            }
-            .hero-logo-section .logo-sub {
-                font-size: 0.9rem;
-            }
-            .section-title {
-                font-size: 1.8rem;
-            }
+            .header-inner { flex-direction: column; gap: 12px; }
+            .hero-content h1 { font-size: 2rem; }
+            .floating-buttons { bottom: 16px; left: 16px; }
+            .floating-btn { width: 48px; height: 48px; font-size: 1.4rem; }
+            .logo img { height: 40px; max-width: 140px; }
+            nav a { font-size: 0.85rem; }
+            .cta-header .btn-primary { padding: 8px 16px; font-size: 0.8rem; }
+            .services-grid { grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); }
+            .trust-grid { grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); }
+            .hero-logo-section .logo-animated img { height: 80px; max-width: 160px; }
+            .hero-logo-section .logo-title { font-size: 1.4rem; }
+            .hero-logo-section .logo-sub { font-size: 0.9rem; }
+            .section-title { font-size: 1.8rem; }
         }
         @media (max-width: 400px) {
-            .hero-content h1 {
-                font-size: 1.6rem;
-            }
-            .container {
-                padding: 0 12px;
-            }
-            .hero-logo-section .logo-animated img {
-                height: 65px;
-                max-width: 130px;
-            }
+            .hero-content h1 { font-size: 1.6rem; }
+            .container { padding: 0 12px; }
+            .hero-logo-section .logo-animated img { height: 65px; max-width: 130px; }
         }
     </style>
 </head>
@@ -1260,14 +834,14 @@
                 <span>Accurate</span> Translation
             </div>
             <nav aria-label="القائمة الرئيسية">
-                <a href="#services">الخدمات</a>
-                <a href="#why">لماذا نحن</a>
-                <a href="#languages">اللغات</a>
-                <a href="#faq">الأسئلة</a>
-                <a href="#contact">تواصل</a>
+                <a href="#services" data-trans="nav-services">الخدمات</a>
+                <a href="#why" data-trans="nav-why">لماذا نحن</a>
+                <a href="#languages" data-trans="nav-languages">اللغات</a>
+                <a href="#faq" data-trans="nav-faq">الأسئلة</a>
+                <a href="#contact" data-trans="nav-contact">تواصل</a>
                 <div class="cta-header">
-                    <a href="#contact" class="btn-primary" style="padding:10px 24px; font-size:0.9rem;" aria-label="احصل على عرض سعر للترجمة المعتمدة">
-                        <i class="fas fa-file-invoice"></i> عرض سعر
+                    <a href="#contact" class="btn-primary" style="padding:10px 24px; font-size:0.9rem;" data-trans="cta-quote" aria-label="احصل على عرض سعر للترجمة المعتمدة">
+                        <i class="fas fa-file-invoice"></i> <span data-trans="cta-quote">عرض سعر</span>
                     </a>
                 </div>
                 <div class="lang-toggle" id="langToggle" role="button" aria-label="تبديل اللغة">
@@ -1288,23 +862,23 @@
                     <img src="images/AccurateLogo.png" alt="شركة أكيوريت للترجمة المعتمدة - مكتب ترجمة معتمد في القاهرة ومصر الجديدة" width="280" height="140" loading="eager" fetchpriority="high">
                 </div>
                 <div class="logo-title">Accurate <span>Translation</span></div>
-                <div class="logo-sub">مكتب الترجمة المعتمد في القاهرة – مصر الجديدة – الكوربة</div>
+                <div class="logo-sub" data-trans="hero-tagline">مكتب الترجمة المعتمد في القاهرة – مصر الجديدة – الكوربة</div>
             </div>
 
             <div class="hero-grid">
                 <div class="hero-content">
-                    <h1>الترجمة المعتمدة في القاهرة <i class="fas fa-check-circle"></i><br>لجميع أنواع المستندات</h1>
-                    <p>نقدم خدمات الترجمة المعتمدة للسفارات والجهات الحكومية في القاهرة ومصر الجديدة والكوربة. ترجمات قانونية، طبية، تجارية، عقود، شهادات، وجوازات سفر بأكثر من 10 لغات على يد مترجمين محترفين مع سرعة في التنفيذ وسرية تامة للمستندات.</p>
+                    <h1 data-trans="hero-title">الترجمة المعتمدة في القاهرة <i class="fas fa-check-circle"></i><br>لجميع أنواع المستندات</h1>
+                    <p data-trans="hero-desc">نقدم خدمات الترجمة المعتمدة للسفارات والجهات الحكومية في القاهرة ومصر الجديدة والكوربة. ترجمات قانونية، طبية، تجارية، عقود، شهادات، وجوازات سفر بأكثر من 10 لغات على يد مترجمين محترفين مع سرعة في التنفيذ وسرية تامة للمستندات.</p>
                     <div class="hero-buttons">
-                        <a href="#contact" class="btn-primary" id="hero-quote-btn" aria-label="احصل على عرض سعر للترجمة المعتمدة">
-                            <i class="fas fa-file-signature"></i> احصل على عرض سعر
+                        <a href="#contact" class="btn-primary" id="hero-quote-btn" data-trans="hero-quote" aria-label="احصل على عرض سعر للترجمة المعتمدة">
+                            <i class="fas fa-file-signature"></i> <span data-trans="hero-quote">احصل على عرض سعر</span>
                         </a>
-                        <a href="https://wa.me/201042124120" target="_blank" class="btn-outline" id="hero-wa-btn" aria-label="تواصل عبر واتساب مع مكتب الترجمة المعتمد">
-                            <i class="fab fa-whatsapp"></i> تواصل عبر واتساب
+                        <a href="https://wa.me/201042124120" target="_blank" class="btn-outline" id="hero-wa-btn" data-trans="hero-wa" aria-label="تواصل عبر واتساب مع مكتب الترجمة المعتمد">
+                            <i class="fab fa-whatsapp"></i> <span data-trans="hero-wa">تواصل عبر واتساب</span>
                         </a>
                     </div>
-                    <div class="floating-badge">
-                        <i class="fas fa-globe-asia"></i> ترجمة معتمدة بأكثر من 10 لغات
+                    <div class="floating-badge" data-trans="hero-badge">
+                        <i class="fas fa-globe-asia"></i> <span data-trans="hero-badge">ترجمة معتمدة بأكثر من 10 لغات</span>
                     </div>
                 </div>
                 <div class="hero-image">
@@ -1320,14 +894,14 @@
     <section class="trust-section" aria-label="مميزات الترجمة المعتمدة في مكتبنا">
         <div class="container">
             <div class="trust-grid">
-                <div class="trust-card"><i class="fas fa-check-circle"></i> ترجمة معتمدة</div>
-                <div class="trust-card"><i class="fas fa-building"></i> معتمدة لدى السفارات</div>
-                <div class="trust-card"><i class="fas fa-landmark"></i> معتمدة حكومياً</div>
-                <div class="trust-card"><i class="fas fa-language"></i> أكثر من 10 لغات</div>
-                <div class="trust-card"><i class="fas fa-rocket"></i> تسليم سريع</div>
-                <div class="trust-card"><i class="fas fa-lock"></i> سرية تامة</div>
-                <div class="trust-card"><i class="fas fa-user-tie"></i> مترجمون محترفون</div>
-                <div class="trust-card"><i class="fas fa-medal"></i> جودة مضمونة</div>
+                <div class="trust-card"><i class="fas fa-check-circle"></i> <span data-trans="trust-1">ترجمة معتمدة</span></div>
+                <div class="trust-card"><i class="fas fa-building"></i> <span data-trans="trust-2">معتمدة لدى السفارات</span></div>
+                <div class="trust-card"><i class="fas fa-landmark"></i> <span data-trans="trust-3">معتمدة حكومياً</span></div>
+                <div class="trust-card"><i class="fas fa-language"></i> <span data-trans="trust-4">أكثر من 10 لغات</span></div>
+                <div class="trust-card"><i class="fas fa-rocket"></i> <span data-trans="trust-5">تسليم سريع</span></div>
+                <div class="trust-card"><i class="fas fa-lock"></i> <span data-trans="trust-6">سرية تامة</span></div>
+                <div class="trust-card"><i class="fas fa-user-tie"></i> <span data-trans="trust-7">مترجمون محترفون</span></div>
+                <div class="trust-card"><i class="fas fa-medal"></i> <span data-trans="trust-8">جودة مضمونة</span></div>
             </div>
         </div>
     </section>
@@ -1341,9 +915,9 @@
                 <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?w=500&h=350&fit=crop" alt="مكتب ترجمة معتمد في القاهرة - شركة أكيوريت للترجمة في مصر الجديدة" width="500" height="350" loading="lazy" style="border-radius:30px; box-shadow:var(--shadow); width:100%;">
             </div>
             <div>
-                <h2 class="section-title">من نحن – مكتب الترجمة المعتمد في القاهرة</h2>
+                <h2 class="section-title" data-trans="about-title">من نحن – مكتب الترجمة المعتمد في القاهرة</h2>
                 <div class="gold-line"></div>
-                <p style="font-size:1.1rem;">شركة Accurate Translation Agency – أكيوريت للترجمة – هي مكتب ترجمة معتمد يقدم خدمات الترجمة الرسمية والموثقة للأفراد والشركات والسفارات والهيئات الحكومية في القاهرة، مصر الجديدة، الكوربة، وجميع أنحاء مصر. نلتزم بالدقة والسرية التامة، ويعمل معنا فريق من المترجمين المتخصصين في المجالات القانونية والطبية والتجارية والهندسية والتقنية والأكاديمية، مما يضمن أعلى معايير الجودة في ترجمة المستندات والشهادات والعقود.</p>
+                <p style="font-size:1.1rem;" data-trans="about-desc">شركة Accurate Translation Agency – أكيوريت للترجمة – هي مكتب ترجمة معتمد يقدم خدمات الترجمة الرسمية والموثقة للأفراد والشركات والسفارات والهيئات الحكومية في القاهرة، مصر الجديدة، الكوربة، وجميع أنحاء مصر. نلتزم بالدقة والسرية التامة، ويعمل معنا فريق من المترجمين المتخصصين في المجالات القانونية والطبية والتجارية والهندسية والتقنية والأكاديمية، مما يضمن أعلى معايير الجودة في ترجمة المستندات والشهادات والعقود.</p>
             </div>
         </div>
     </section>
@@ -1353,23 +927,23 @@
     <!-- ============================================================ -->
     <section class="services-section" id="services" aria-label="خدمات الترجمة المعتمدة التي نقدمها">
         <div class="container">
-            <h2 class="section-title">خدمات الترجمة المعتمدة في القاهرة</h2>
+            <h2 class="section-title" data-trans="services-title">خدمات الترجمة المعتمدة في القاهرة</h2>
             <div class="gold-line"></div>
             <div class="services-grid">
-                <div class="service-card"><i class="fas fa-gavel"></i><h4>ترجمة قانونية</h4></div>
-                <div class="service-card"><i class="fas fa-heartbeat"></i><h4>ترجمة طبية</h4></div>
-                <div class="service-card"><i class="fas fa-chart-line"></i><h4>ترجمة مالية</h4></div>
-                <div class="service-card"><i class="fas fa-hard-hat"></i><h4>ترجمة هندسية</h4></div>
-                <div class="service-card"><i class="fas fa-laptop-code"></i><h4>ترجمة تقنية</h4></div>
-                <div class="service-card"><i class="fas fa-graduation-cap"></i><h4>ترجمة أكاديمية</h4></div>
-                <div class="service-card"><i class="fas fa-globe"></i><h4>ترجمة مواقع إلكترونية</h4></div>
-                <div class="service-card"><i class="fas fa-book"></i><h4>ترجمة كتب</h4></div>
-                <div class="service-card"><i class="fas fa-file-contract"></i><h4>ترجمة عقود</h4></div>
-                <div class="service-card"><i class="fas fa-passport"></i><h4>ترجمة جوازات سفر</h4></div>
-                <div class="service-card"><i class="fas fa-birthday-cake"></i><h4>ترجمة شهادات ميلاد</h4></div>
-                <div class="service-card"><i class="fas fa-ring"></i><h4>ترجمة شهادات زواج</h4></div>
-                <div class="service-card"><i class="fas fa-file-pdf"></i><h4>ترجمة مستندات السفارات</h4></div>
-                <div class="service-card"><i class="fas fa-users"></i><h4>ترجمة مستندات الهجرة</h4></div>
+                <div class="service-card"><i class="fas fa-gavel"></i><h4 data-trans="svc-1">ترجمة قانونية</h4></div>
+                <div class="service-card"><i class="fas fa-heartbeat"></i><h4 data-trans="svc-2">ترجمة طبية</h4></div>
+                <div class="service-card"><i class="fas fa-chart-line"></i><h4 data-trans="svc-3">ترجمة مالية</h4></div>
+                <div class="service-card"><i class="fas fa-hard-hat"></i><h4 data-trans="svc-4">ترجمة هندسية</h4></div>
+                <div class="service-card"><i class="fas fa-laptop-code"></i><h4 data-trans="svc-5">ترجمة تقنية</h4></div>
+                <div class="service-card"><i class="fas fa-graduation-cap"></i><h4 data-trans="svc-6">ترجمة أكاديمية</h4></div>
+                <div class="service-card"><i class="fas fa-globe"></i><h4 data-trans="svc-7">ترجمة مواقع إلكترونية</h4></div>
+                <div class="service-card"><i class="fas fa-book"></i><h4 data-trans="svc-8">ترجمة كتب</h4></div>
+                <div class="service-card"><i class="fas fa-file-contract"></i><h4 data-trans="svc-9">ترجمة عقود</h4></div>
+                <div class="service-card"><i class="fas fa-passport"></i><h4 data-trans="svc-10">ترجمة جوازات سفر</h4></div>
+                <div class="service-card"><i class="fas fa-birthday-cake"></i><h4 data-trans="svc-11">ترجمة شهادات ميلاد</h4></div>
+                <div class="service-card"><i class="fas fa-ring"></i><h4 data-trans="svc-12">ترجمة شهادات زواج</h4></div>
+                <div class="service-card"><i class="fas fa-file-pdf"></i><h4 data-trans="svc-13">ترجمة مستندات السفارات</h4></div>
+                <div class="service-card"><i class="fas fa-users"></i><h4 data-trans="svc-14">ترجمة مستندات الهجرة</h4></div>
             </div>
         </div>
     </section>
@@ -1379,17 +953,17 @@
     <!-- ============================================================ -->
     <section class="why-section" id="why" aria-label="لماذا تختار مكتب الترجمة المعتمد Accurate Translation">
         <div class="container">
-            <h2 class="section-title">لماذا تختار مكتب الترجمة المعتمد Accurate Translation؟</h2>
+            <h2 class="section-title" data-trans="why-title">لماذا تختار مكتب الترجمة المعتمد Accurate Translation؟</h2>
             <div class="gold-line"></div>
             <div class="why-grid">
-                <div class="why-item"><i class="fas fa-user-check"></i><h4>مترجمون معتمدون</h4></div>
-                <div class="why-item"><i class="fas fa-clock"></i><h4>خبرة طويلة في الترجمة</h4></div>
-                <div class="why-item"><i class="fas fa-award"></i><h4>جودة عالية ودقة</h4></div>
-                <div class="why-item"><i class="fas fa-shipping-fast"></i><h4>تسليم سريع</h4></div>
-                <div class="why-item"><i class="fas fa-tags"></i><h4>أسعار تنافسية</h4></div>
-                <div class="why-item"><i class="fas fa-shield-alt"></i><h4>سرية تامة للمستندات</h4></div>
-                <div class="why-item"><i class="fas fa-handshake"></i><h4>خدمة عملاء متميزة</h4></div>
-                <div class="why-item"><i class="fas fa-check-double"></i><h4>مراجعة دقيقة للترجمة</h4></div>
+                <div class="why-item"><i class="fas fa-user-check"></i><h4 data-trans="why-1">مترجمون معتمدون</h4></div>
+                <div class="why-item"><i class="fas fa-clock"></i><h4 data-trans="why-2">خبرة طويلة في الترجمة</h4></div>
+                <div class="why-item"><i class="fas fa-award"></i><h4 data-trans="why-3">جودة عالية ودقة</h4></div>
+                <div class="why-item"><i class="fas fa-shipping-fast"></i><h4 data-trans="why-4">تسليم سريع</h4></div>
+                <div class="why-item"><i class="fas fa-tags"></i><h4 data-trans="why-5">أسعار تنافسية</h4></div>
+                <div class="why-item"><i class="fas fa-shield-alt"></i><h4 data-trans="why-6">سرية تامة للمستندات</h4></div>
+                <div class="why-item"><i class="fas fa-handshake"></i><h4 data-trans="why-7">خدمة عملاء متميزة</h4></div>
+                <div class="why-item"><i class="fas fa-check-double"></i><h4 data-trans="why-8">مراجعة دقيقة للترجمة</h4></div>
             </div>
         </div>
     </section>
@@ -1399,23 +973,23 @@
     <!-- ============================================================ -->
     <section class="languages-section" id="languages" aria-label="اللغات المتاحة للترجمة المعتمدة">
         <div class="container">
-            <h2 class="section-title">اللغات التي نقدمها في الترجمة المعتمدة</h2>
+            <h2 class="section-title" data-trans="lang-title">اللغات التي نقدمها في الترجمة المعتمدة</h2>
             <div class="gold-line"></div>
             <div class="lang-grid">
-                <div class="lang-card">العربية</div>
-                <div class="lang-card">الإنجليزية</div>
-                <div class="lang-card">الفرنسية</div>
-                <div class="lang-card">الألمانية</div>
-                <div class="lang-card">الإيطالية</div>
-                <div class="lang-card">الإسبانية</div>
-                <div class="lang-card">الروسية</div>
-                <div class="lang-card">الصينية</div>
-                <div class="lang-card">اليابانية</div>
-                <div class="lang-card">التركية</div>
-                <div class="lang-card">البرتغالية</div>
-                <div class="lang-card">الكورية</div>
+                <div class="lang-card" data-trans="lang-ar">العربية</div>
+                <div class="lang-card" data-trans="lang-en">الإنجليزية</div>
+                <div class="lang-card" data-trans="lang-fr">الفرنسية</div>
+                <div class="lang-card" data-trans="lang-de">الألمانية</div>
+                <div class="lang-card" data-trans="lang-it">الإيطالية</div>
+                <div class="lang-card" data-trans="lang-es">الإسبانية</div>
+                <div class="lang-card" data-trans="lang-ru">الروسية</div>
+                <div class="lang-card" data-trans="lang-zh">الصينية</div>
+                <div class="lang-card" data-trans="lang-ja">اليابانية</div>
+                <div class="lang-card" data-trans="lang-tr">التركية</div>
+                <div class="lang-card" data-trans="lang-pt">البرتغالية</div>
+                <div class="lang-card" data-trans="lang-ko">الكورية</div>
             </div>
-            <p style="text-align:center; margin-top:30px; font-weight:600;">ترجمة معتمدة من وإلى أكثر من 10 لغات حول العالم – نخدم العملاء في القاهرة ومصر الجديدة والكوربة وجميع أنحاء مصر.</p>
+            <p style="text-align:center; margin-top:30px; font-weight:600;" data-trans="lang-more">ترجمة معتمدة من وإلى أكثر من 10 لغات حول العالم – نخدم العملاء في القاهرة ومصر الجديدة والكوربة وجميع أنحاء مصر.</p>
         </div>
     </section>
 
@@ -1424,15 +998,15 @@
     <!-- ============================================================ -->
     <section class="timeline-section" aria-label="خطوات الحصول على ترجمة معتمدة في القاهرة">
         <div class="container">
-            <h2 class="section-title">خطوات الحصول على ترجمة معتمدة من مكتبنا</h2>
+            <h2 class="section-title" data-trans="timeline-title">خطوات الحصول على ترجمة معتمدة من مكتبنا</h2>
             <div class="gold-line"></div>
             <div class="timeline">
-                <div class="step"><div class="step-num">1</div><span>أرسل مستنداتك</span></div>
-                <div class="step"><div class="step-num">2</div><span>مراجعة مجانية</span></div>
-                <div class="step"><div class="step-num">3</div><span>تحديد السعر</span></div>
-                <div class="step"><div class="step-num">4</div><span>تنفيذ الترجمة</span></div>
-                <div class="step"><div class="step-num">5</div><span>مراجعة الجودة</span></div>
-                <div class="step"><div class="step-num">6</div><span>تسليم إلكتروني أو ورقي</span></div>
+                <div class="step"><div class="step-num">1</div><span data-trans="step-1">أرسل مستنداتك</span></div>
+                <div class="step"><div class="step-num">2</div><span data-trans="step-2">مراجعة مجانية</span></div>
+                <div class="step"><div class="step-num">3</div><span data-trans="step-3">تحديد السعر</span></div>
+                <div class="step"><div class="step-num">4</div><span data-trans="step-4">تنفيذ الترجمة</span></div>
+                <div class="step"><div class="step-num">5</div><span data-trans="step-5">مراجعة الجودة</span></div>
+                <div class="step"><div class="step-num">6</div><span data-trans="step-6">تسليم إلكتروني أو ورقي</span></div>
             </div>
         </div>
     </section>
@@ -1442,11 +1016,11 @@
     <!-- ============================================================ -->
     <section class="stats-section" aria-label="إحصائيات مكتب الترجمة المعتمد">
         <div class="container stats-grid">
-            <div><div class="stat-number">10+</div><div class="stat-label">لغة</div></div>
-            <div><div class="stat-number">1500+</div><div class="stat-label">مستند تمت ترجمته</div></div>
-            <div><div class="stat-number">1200+</div><div class="stat-label">عميل سعيد</div></div>
-            <div><div class="stat-number">95%</div><div class="stat-label">رضا العملاء</div></div>
-            <div><div class="stat-number">10+</div><div class="stat-label">سنة خبرة في الترجمة</div></div>
+            <div><div class="stat-number">10+</div><div class="stat-label" data-trans="stat-1">لغة</div></div>
+            <div><div class="stat-number">1500+</div><div class="stat-label" data-trans="stat-2">مستند تمت ترجمته</div></div>
+            <div><div class="stat-number">1200+</div><div class="stat-label" data-trans="stat-3">عميل سعيد</div></div>
+            <div><div class="stat-number">95%</div><div class="stat-label" data-trans="stat-4">رضا العملاء</div></div>
+            <div><div class="stat-number">10+</div><div class="stat-label" data-trans="stat-5">سنة خبرة في الترجمة</div></div>
         </div>
     </section>
 
@@ -1455,72 +1029,72 @@
     <!-- ============================================================ -->
     <section class="faq-section" id="faq" aria-label="الأسئلة الشائعة عن الترجمة المعتمدة">
         <div class="container">
-            <h2 class="section-title">الأسئلة الشائعة عن الترجمة المعتمدة</h2>
+            <h2 class="section-title" data-trans="faq-title">الأسئلة الشائعة عن الترجمة المعتمدة</h2>
             <div class="gold-line"></div>
             
             <div class="faq-item active">
-                <div class="faq-question">ما هي الترجمة المعتمدة؟ <i class="fas fa-chevron-down"></i></div>
-                <div class="faq-answer">الترجمة المعتمدة هي ترجمة موثقة ومختومة من مكتب ترجمة معتمد، ومعترف بها رسميًا من قبل السفارات والجهات الحكومية في مصر وخارجها. تخضع هذه الترجمات لمعايير دقيقة وتكون مصحوبة بختم وتوقيع المترجم المعتمد.</div>
+                <div class="faq-question" data-trans="faq-q1">ما هي الترجمة المعتمدة؟ <i class="fas fa-chevron-down"></i></div>
+                <div class="faq-answer" data-trans="faq-a1">الترجمة المعتمدة هي ترجمة موثقة ومختومة من مكتب ترجمة معتمد، ومعترف بها رسميًا من قبل السفارات والجهات الحكومية في مصر وخارجها. تخضع هذه الترجمات لمعايير دقيقة وتكون مصحوبة بختم وتوقيع المترجم المعتمد.</div>
             </div>
             
             <div class="faq-item">
-                <div class="faq-question">هل الترجمة المعتمدة مقبولة لدى السفارات والجهات الحكومية؟ <i class="fas fa-chevron-down"></i></div>
-                <div class="faq-answer">نعم، جميع ترجماتنا معتمدة ومختومة ومعترف بها لدى معظم السفارات والجهات الحكومية في القاهرة ومصر. نوصي بالتواصل مع الجهة المستلمة للتأكد من متطلباتها الخاصة للترجمة المعتمدة.</div>
+                <div class="faq-question" data-trans="faq-q2">هل الترجمة المعتمدة مقبولة لدى السفارات والجهات الحكومية؟ <i class="fas fa-chevron-down"></i></div>
+                <div class="faq-answer" data-trans="faq-a2">نعم، جميع ترجماتنا معتمدة ومختومة ومعترف بها لدى معظم السفارات والجهات الحكومية في القاهرة ومصر. نوصي بالتواصل مع الجهة المستلمة للتأكد من متطلباتها الخاصة للترجمة المعتمدة.</div>
             </div>
             
             <div class="faq-item">
-                <div class="faq-question">كم سعر الترجمة المعتمدة في القاهرة؟ <i class="fas fa-chevron-down"></i></div>
-                <div class="faq-answer">تختلف تكلفة الترجمة المعتمدة حسب عدة عوامل تشمل نوع المستند وعدد الكلمات واللغة المطلوبة وسرعة التسليم المطلوبة. للاستعلام عن سعر دقيق، يرجى التواصل معنا عبر واتساب أو الهاتف مع إرسال المستند المطلوب ترجمته.</div>
+                <div class="faq-question" data-trans="faq-q3">كم سعر الترجمة المعتمدة في القاهرة؟ <i class="fas fa-chevron-down"></i></div>
+                <div class="faq-answer" data-trans="faq-a3">تختلف تكلفة الترجمة المعتمدة حسب عدة عوامل تشمل نوع المستند وعدد الكلمات واللغة المطلوبة وسرعة التسليم المطلوبة. للاستعلام عن سعر دقيق، يرجى التواصل معنا عبر واتساب أو الهاتف مع إرسال المستند المطلوب ترجمته.</div>
             </div>
             
             <div class="faq-item">
-                <div class="faq-question">كم تستغرق ترجمة المستندات المعتمدة؟ <i class="fas fa-chevron-down"></i></div>
-                <div class="faq-answer">تختلف مدة الترجمة حسب حجم المستند وتعقيده. نقدم خدمة الترجمة العاجلة خلال 24 ساعة للمستندات القصيرة والمتوسطة، والخدمة العادية يتم تحديدها حسب الاتفاق مع العميل مع مراعاة الدقة والجودة.</div>
+                <div class="faq-question" data-trans="faq-q4">كم تستغرق ترجمة المستندات المعتمدة؟ <i class="fas fa-chevron-down"></i></div>
+                <div class="faq-answer" data-trans="faq-a4">تختلف مدة الترجمة حسب حجم المستند وتعقيده. نقدم خدمة الترجمة العاجلة خلال 24 ساعة للمستندات القصيرة والمتوسطة، والخدمة العادية يتم تحديدها حسب الاتفاق مع العميل مع مراعاة الدقة والجودة.</div>
             </div>
             
             <div class="faq-item">
-                <div class="faq-question">هل تقدمون ترجمة عاجلة للمستندات؟ <i class="fas fa-chevron-down"></i></div>
-                <div class="faq-answer">نعم، نوفر خدمة الترجمة العاجلة للمستندات التي تحتاج إلى تسليم سريع. يمكننا إنجاز الترجمة في غضون 24 ساعة أو حسب الاتفاق مع العميل، مع الحفاظ على أعلى معايير الجودة والدقة.</div>
+                <div class="faq-question" data-trans="faq-q5">هل تقدمون ترجمة عاجلة للمستندات؟ <i class="fas fa-chevron-down"></i></div>
+                <div class="faq-answer" data-trans="faq-a5">نعم، نوفر خدمة الترجمة العاجلة للمستندات التي تحتاج إلى تسليم سريع. يمكننا إنجاز الترجمة في غضون 24 ساعة أو حسب الاتفاق مع العميل، مع الحفاظ على أعلى معايير الجودة والدقة.</div>
             </div>
             
             <div class="faq-item">
-                <div class="faq-question">ما هي اللغات التي تقدمونها في الترجمة؟ <i class="fas fa-chevron-down"></i></div>
-                <div class="faq-answer">نقدم خدمات الترجمة من وإلى أكثر من 10 لغات تشمل العربية، الإنجليزية، الفرنسية، الألمانية، الإيطالية، الإسبانية، الروسية، الصينية، اليابانية، التركية، والبرتغالية. كما نوفر ترجمة بين أزواج لغوية متعددة حسب احتياجات العميل.</div>
+                <div class="faq-question" data-trans="faq-q6">ما هي اللغات التي تقدمونها في الترجمة؟ <i class="fas fa-chevron-down"></i></div>
+                <div class="faq-answer" data-trans="faq-a6">نقدم خدمات الترجمة من وإلى أكثر من 10 لغات تشمل العربية، الإنجليزية، الفرنسية، الألمانية، الإيطالية، الإسبانية، الروسية، الصينية، اليابانية، التركية، والبرتغالية. كما نوفر ترجمة بين أزواج لغوية متعددة حسب احتياجات العميل.</div>
             </div>
             
             <div class="faq-item">
-                <div class="faq-question">هل يمكن إرسال المستندات عبر واتساب للترجمة؟ <i class="fas fa-chevron-down"></i></div>
-                <div class="faq-answer">نعم، يمكنك إرسال المستندات المطلوب ترجمتها عبر واتساب بكل سهولة وأمان. نضمن سرية جميع المستندات التي تصلنا، ويمكنك متابعة حالة طلبك عبر نفس القناة.</div>
+                <div class="faq-question" data-trans="faq-q7">هل يمكن إرسال المستندات عبر واتساب للترجمة؟ <i class="fas fa-chevron-down"></i></div>
+                <div class="faq-answer" data-trans="faq-a7">نعم، يمكنك إرسال المستندات المطلوب ترجمتها عبر واتساب بكل سهولة وأمان. نضمن سرية جميع المستندات التي تصلنا، ويمكنك متابعة حالة طلبك عبر نفس القناة.</div>
             </div>
             
             <div class="faq-item">
-                <div class="faq-question">هل تقدمون ترجمة قانونية معتمدة؟ <i class="fas fa-chevron-down"></i></div>
-                <div class="faq-answer">نعم، لدينا مترجمون قانونيون معتمدون لتقديم ترجمة قانونية دقيقة وموثقة للعقود، والتوكيلات، والمحاضر القضائية، والأحكام، والاتفاقيات التجارية، وجميع المستندات القانونية الأخرى.</div>
+                <div class="faq-question" data-trans="faq-q8">هل تقدمون ترجمة قانونية معتمدة؟ <i class="fas fa-chevron-down"></i></div>
+                <div class="faq-answer" data-trans="faq-a8">نعم، لدينا مترجمون قانونيون معتمدون لتقديم ترجمة قانونية دقيقة وموثقة للعقود، والتوكيلات، والمحاضر القضائية، والأحكام، والاتفاقيات التجارية، وجميع المستندات القانونية الأخرى.</div>
             </div>
             
             <div class="faq-item">
-                <div class="faq-question">هل تقدمون ترجمة طبية معتمدة؟ <i class="fas fa-chevron-down"></i></div>
-                <div class="faq-answer">نعم، نوفر ترجمة معتمدة للتقارير الطبية، والتحاليل، والأشعة، والملفات الطبية، والوصفات الطبية، والتاريخ المرضي، وجميع المستندات الطبية بدقة عالية من قبل مترجمين متخصصين في المجال الطبي.</div>
+                <div class="faq-question" data-trans="faq-q9">هل تقدمون ترجمة طبية معتمدة؟ <i class="fas fa-chevron-down"></i></div>
+                <div class="faq-answer" data-trans="faq-a9">نعم، نوفر ترجمة معتمدة للتقارير الطبية، والتحاليل، والأشعة، والملفات الطبية، والوصفات الطبية، والتاريخ المرضي، وجميع المستندات الطبية بدقة عالية من قبل مترجمين متخصصين في المجال الطبي.</div>
             </div>
             
             <div class="faq-item">
-                <div class="faq-question">هل يمكن ترجمة جواز السفر؟ <i class="fas fa-chevron-down"></i></div>
-                <div class="faq-answer">نعم، نقدم ترجمة معتمدة لجوازات السفر وجميع أوراق السفر والهجرة باللغات المطلوبة. هذه الترجمة معتمدة وخاضعة لمعايير السفارات والجهات الرسمية.</div>
+                <div class="faq-question" data-trans="faq-q10">هل يمكن ترجمة جواز السفر؟ <i class="fas fa-chevron-down"></i></div>
+                <div class="faq-answer" data-trans="faq-a10">نعم، نقدم ترجمة معتمدة لجوازات السفر وجميع أوراق السفر والهجرة باللغات المطلوبة. هذه الترجمة معتمدة وخاضعة لمعايير السفارات والجهات الرسمية.</div>
             </div>
             
             <div class="faq-item">
-                <div class="faq-question">أين يوجد مكتب الترجمة المعتمد في القاهرة؟ <i class="fas fa-chevron-down"></i></div>
-                <div class="faq-answer">يقع مكتبنا الرئيسي في 18 شارع إبراهيم، الكوربة، مصر الجديدة، القاهرة. نخدم العملاء في القاهرة ومصر الجديدة والكوربة وجميع مناطق القاهرة الكبرى، بالإضافة إلى تقديم خدماتنا عبر الإنترنت للعملاء في جميع أنحاء مصر.</div>
+                <div class="faq-question" data-trans="faq-q11">أين يوجد مكتب الترجمة المعتمد في القاهرة؟ <i class="fas fa-chevron-down"></i></div>
+                <div class="faq-answer" data-trans="faq-a11">يقع مكتبنا الرئيسي في 18 شارع إبراهيم، الكوربة، مصر الجديدة، القاهرة. نخدم العملاء في القاهرة ومصر الجديدة والكوربة وجميع مناطق القاهرة الكبرى، بالإضافة إلى تقديم خدماتنا عبر الإنترنت للعملاء في جميع أنحاء مصر.</div>
             </div>
             
             <div class="faq-item">
-                <div class="faq-question">هل تقدمون ترجمة شهادات الميلاد والزواج؟ <i class="fas fa-chevron-down"></i></div>
-                <div class="faq-answer">نعم، نوفر ترجمة معتمدة لشهادات الميلاد والزواج والطلاق والوفاة وجميع المستندات الشخصية. هذه الترجمات معترف بها لدى السفارات والمكاتب الحكومية، وتتم بدقة متناهية لضمان مطابقتها للأصل.</div>
+                <div class="faq-question" data-trans="faq-q12">هل تقدمون ترجمة شهادات الميلاد والزواج؟ <i class="fas fa-chevron-down"></i></div>
+                <div class="faq-answer" data-trans="faq-a12">نعم، نوفر ترجمة معتمدة لشهادات الميلاد والزواج والطلاق والوفاة وجميع المستندات الشخصية. هذه الترجمات معترف بها لدى السفارات والمكاتب الحكومية، وتتم بدقة متناهية لضمان مطابقتها للأصل.</div>
             </div>
             
             <div class="faq-item">
-                <div class="faq-question">هل تقدمون ترجمة عقود واتفاقيات تجارية؟ <i class="fas fa-chevron-down"></i></div>
-                <div class="faq-answer">نعم، لدينا فريق متخصص في ترجمة العقود التجارية، واتفاقيات الشركات، وعقود العمل، وعقود الإيجار، وجميع الوثائق التجارية باللغتين العربية والإنجليزية واللغات الأخرى، مع مراعاة الدقة القانونية والاصطلاحية.</div>
+                <div class="faq-question" data-trans="faq-q13">هل تقدمون ترجمة عقود واتفاقيات تجارية؟ <i class="fas fa-chevron-down"></i></div>
+                <div class="faq-answer" data-trans="faq-a13">نعم، لدينا فريق متخصص في ترجمة العقود التجارية، واتفاقيات الشركات، وعقود العمل، وعقود الإيجار، وجميع الوثائق التجارية باللغتين العربية والإنجليزية واللغات الأخرى، مع مراعاة الدقة القانونية والاصطلاحية.</div>
             </div>
         </div>
     </section>
@@ -1531,27 +1105,27 @@
     <section class="contact-section" id="contact" aria-label="تواصل مع مكتب الترجمة المعتمد في القاهرة">
         <div class="container contact-grid">
             <div class="contact-info">
-                <h2 class="section-title">تواصل مع مكتب الترجمة المعتمد في القاهرة</h2>
+                <h2 class="section-title" data-trans="contact-title">تواصل مع مكتب الترجمة المعتمد في القاهرة</h2>
                 <div class="gold-line"></div>
-                <p><i class="fas fa-map-pin"></i> 18 شارع إبراهيم، الكوربة، مصر الجديدة، القاهرة</p>
+                <p data-trans="contact-address"><i class="fas fa-map-pin"></i> 18 شارع إبراهيم، الكوربة، مصر الجديدة، القاهرة</p>
                 <p><i class="fas fa-phone-alt"></i> <a href="tel:+201042124120" aria-label="اتصل بمكتب الترجمة المعتمد على 01042124120">01042124120</a> / <a href="tel:+201042127320" aria-label="اتصل بمكتب الترجمة المعتمد على 01042127320">01042127320</a> / 0222590146</p>
                 <div class="contact-buttons">
                     <a href="https://wa.me/201042124120" target="_blank" class="btn-primary" style="background:#25D366; color:white;" aria-label="تواصل عبر واتساب مع مكتب الترجمة المعتمد">
-                        <i class="fab fa-whatsapp"></i> واتساب
+                        <i class="fab fa-whatsapp"></i> <span data-trans="contact-wa">واتساب</span>
                     </a>
                     <a href="tel:+201042124120" class="btn-outline" style="border-color:var(--primary-dark); color:var(--primary-dark);" aria-label="اتصل بمكتب الترجمة المعتمد">
-                        <i class="fas fa-phone"></i> اتصل بنا
+                        <i class="fas fa-phone"></i> <span data-trans="contact-call">اتصل بنا</span>
                     </a>
                     <a href="https://maps.google.com/?q=18+شارع+إبراهيم+الكوربة+مصر+الجديدة+القاهرة" target="_blank" class="btn-outline" aria-label="موقع مكتب الترجمة المعتمد على الخريطة">
-                        <i class="fas fa-map-marked-alt"></i> خرائط
+                        <i class="fas fa-map-marked-alt"></i> <span data-trans="contact-map">خرائط</span>
                     </a>
                 </div>
             </div>
             <div class="contact-card">
                 <div>
                     <i class="fas fa-comments"></i>
-                    <h3>تواصل معنا عبر واتساب أو الهاتف</h3>
-                    <p>نحن هنا لخدمتك على مدار الساعة – ترجمة معتمدة في القاهرة ومصر الجديدة والكوربة.</p>
+                    <h3 data-trans="contact-cta">تواصل معنا عبر واتساب أو الهاتف</h3>
+                    <p data-trans="contact-cta-sub">نحن هنا لخدمتك على مدار الساعة – ترجمة معتمدة في القاهرة ومصر الجديدة والكوربة.</p>
                 </div>
             </div>
         </div>
@@ -1564,23 +1138,23 @@
         <div class="container footer-grid">
             <div>
                 <div class="footer-logo">Accurate <span>Translation</span></div>
-                <p style="margin-top:10px;">ترجمة معتمدة بجودة عالية وسرعة – مكتب ترجمة معتمد في القاهرة، مصر الجديدة، الكوربة.</p>
+                <p style="margin-top:10px;" data-trans="footer-desc">ترجمة معتمدة بجودة عالية وسرعة – مكتب ترجمة معتمد في القاهرة، مصر الجديدة، الكوربة.</p>
             </div>
             <div class="footer-links">
-                <h4>روابط سريعة</h4>
-                <a href="#services">الخدمات</a>
-                <a href="#why">لماذا نحن</a>
-                <a href="#languages">اللغات</a>
-                <a href="#faq">الأسئلة</a>
+                <h4 data-trans="footer-links">روابط سريعة</h4>
+                <a href="#services" data-trans="nav-services">الخدمات</a>
+                <a href="#why" data-trans="nav-why">لماذا نحن</a>
+                <a href="#languages" data-trans="nav-languages">اللغات</a>
+                <a href="#faq" data-trans="nav-faq">الأسئلة</a>
             </div>
             <div class="footer-links">
-                <h4>تواصل</h4>
-                <a href="#contact">اتصل بنا</a>
-                <a href="https://wa.me/201042124120" target="_blank">واتساب</a>
-                <a href="mailto:info@accuratetranslation.net">البريد الإلكتروني</a>
+                <h4 data-trans="footer-contact">تواصل</h4>
+                <a href="#contact" data-trans="nav-contact">اتصل بنا</a>
+                <a href="https://wa.me/201042124120" target="_blank" data-trans="footer-wa">واتساب</a>
+                <a href="mailto:info@accuratetranslation.net" data-trans="footer-email">البريد الإلكتروني</a>
             </div>
         </div>
-        <div class="container copy">© 2025 Accurate Translation Agency. جميع الحقوق محفوظة – الترجمة المعتمدة في القاهرة.</div>
+        <div class="container copy" data-trans="footer-copy">© 2025 Accurate Translation Agency. جميع الحقوق محفوظة – الترجمة المعتمدة في القاهرة.</div>
     </footer>
 
     <!-- ============================================================ -->
@@ -1593,30 +1167,168 @@
     </div>
 
     <!-- ============================================================ -->
-    <!-- SCRIPTS -->
+    <!-- SCRIPTS - الجزء المهم لحل مشكلة اللغة -->
     <!-- ============================================================ -->
     <script>
         // ============================================================
-        // LANGUAGE SWITCHER
+        // TRANSLATIONS DATABASE - الترجمة الكاملة
         // ============================================================
         const translations = {
             ar: {
-                // Arabic translations - will be used when switching to Arabic
+                // Navigation
+                'nav-services': 'الخدمات',
+                'nav-why': 'لماذا نحن',
+                'nav-languages': 'اللغات',
+                'nav-faq': 'الأسئلة',
+                'nav-contact': 'تواصل',
+                'cta-quote': 'عرض سعر',
+                
+                // Hero
+                'hero-tagline': 'مكتب الترجمة المعتمد في القاهرة – مصر الجديدة – الكوربة',
+                'hero-title': 'الترجمة المعتمدة في القاهرة <i class="fas fa-check-circle"></i><br>لجميع أنواع المستندات',
+                'hero-desc': 'نقدم خدمات الترجمة المعتمدة للسفارات والجهات الحكومية في القاهرة ومصر الجديدة والكوربة. ترجمات قانونية، طبية، تجارية، عقود، شهادات، وجوازات سفر بأكثر من 10 لغات على يد مترجمين محترفين مع سرعة في التنفيذ وسرية تامة للمستندات.',
+                'hero-quote': 'احصل على عرض سعر',
+                'hero-wa': 'تواصل عبر واتساب',
+                'hero-badge': 'ترجمة معتمدة بأكثر من 10 لغات',
+                
+                // Trust Cards
+                'trust-1': 'ترجمة معتمدة',
+                'trust-2': 'معتمدة لدى السفارات',
+                'trust-3': 'معتمدة حكومياً',
+                'trust-4': 'أكثر من 10 لغات',
+                'trust-5': 'تسليم سريع',
+                'trust-6': 'سرية تامة',
+                'trust-7': 'مترجمون محترفون',
+                'trust-8': 'جودة مضمونة',
+                
+                // About
+                'about-title': 'من نحن – مكتب الترجمة المعتمد في القاهرة',
+                'about-desc': 'شركة Accurate Translation Agency – أكيوريت للترجمة – هي مكتب ترجمة معتمد يقدم خدمات الترجمة الرسمية والموثقة للأفراد والشركات والسفارات والهيئات الحكومية في القاهرة، مصر الجديدة، الكوربة، وجميع أنحاء مصر. نلتزم بالدقة والسرية التامة، ويعمل معنا فريق من المترجمين المتخصصين في المجالات القانونية والطبية والتجارية والهندسية والتقنية والأكاديمية، مما يضمن أعلى معايير الجودة في ترجمة المستندات والشهادات والعقود.',
+                
+                // Services
+                'services-title': 'خدمات الترجمة المعتمدة في القاهرة',
+                'svc-1': 'ترجمة قانونية',
+                'svc-2': 'ترجمة طبية',
+                'svc-3': 'ترجمة مالية',
+                'svc-4': 'ترجمة هندسية',
+                'svc-5': 'ترجمة تقنية',
+                'svc-6': 'ترجمة أكاديمية',
+                'svc-7': 'ترجمة مواقع إلكترونية',
+                'svc-8': 'ترجمة كتب',
+                'svc-9': 'ترجمة عقود',
+                'svc-10': 'ترجمة جوازات سفر',
+                'svc-11': 'ترجمة شهادات ميلاد',
+                'svc-12': 'ترجمة شهادات زواج',
+                'svc-13': 'ترجمة مستندات السفارات',
+                'svc-14': 'ترجمة مستندات الهجرة',
+                
+                // Why Us
+                'why-title': 'لماذا تختار مكتب الترجمة المعتمد Accurate Translation؟',
+                'why-1': 'مترجمون معتمدون',
+                'why-2': 'خبرة طويلة في الترجمة',
+                'why-3': 'جودة عالية ودقة',
+                'why-4': 'تسليم سريع',
+                'why-5': 'أسعار تنافسية',
+                'why-6': 'سرية تامة للمستندات',
+                'why-7': 'خدمة عملاء متميزة',
+                'why-8': 'مراجعة دقيقة للترجمة',
+                
+                // Languages
+                'lang-title': 'اللغات التي نقدمها في الترجمة المعتمدة',
+                'lang-ar': 'العربية',
+                'lang-en': 'الإنجليزية',
+                'lang-fr': 'الفرنسية',
+                'lang-de': 'الألمانية',
+                'lang-it': 'الإيطالية',
+                'lang-es': 'الإسبانية',
+                'lang-ru': 'الروسية',
+                'lang-zh': 'الصينية',
+                'lang-ja': 'اليابانية',
+                'lang-tr': 'التركية',
+                'lang-pt': 'البرتغالية',
+                'lang-ko': 'الكورية',
+                'lang-more': 'ترجمة معتمدة من وإلى أكثر من 10 لغات حول العالم – نخدم العملاء في القاهرة ومصر الجديدة والكوربة وجميع أنحاء مصر.',
+                
+                // Timeline
+                'timeline-title': 'خطوات الحصول على ترجمة معتمدة من مكتبنا',
+                'step-1': 'أرسل مستنداتك',
+                'step-2': 'مراجعة مجانية',
+                'step-3': 'تحديد السعر',
+                'step-4': 'تنفيذ الترجمة',
+                'step-5': 'مراجعة الجودة',
+                'step-6': 'تسليم إلكتروني أو ورقي',
+                
+                // Stats
+                'stat-1': 'لغة',
+                'stat-2': 'مستند تمت ترجمته',
+                'stat-3': 'عميل سعيد',
+                'stat-4': 'رضا العملاء',
+                'stat-5': 'سنة خبرة في الترجمة',
+                
+                // FAQ
+                'faq-title': 'الأسئلة الشائعة عن الترجمة المعتمدة',
+                'faq-q1': 'ما هي الترجمة المعتمدة؟ <i class="fas fa-chevron-down"></i>',
+                'faq-a1': 'الترجمة المعتمدة هي ترجمة موثقة ومختومة من مكتب ترجمة معتمد، ومعترف بها رسميًا من قبل السفارات والجهات الحكومية في مصر وخارجها. تخضع هذه الترجمات لمعايير دقيقة وتكون مصحوبة بختم وتوقيع المترجم المعتمد.',
+                'faq-q2': 'هل الترجمة المعتمدة مقبولة لدى السفارات والجهات الحكومية؟ <i class="fas fa-chevron-down"></i>',
+                'faq-a2': 'نعم، جميع ترجماتنا معتمدة ومختومة ومعترف بها لدى معظم السفارات والجهات الحكومية في القاهرة ومصر. نوصي بالتواصل مع الجهة المستلمة للتأكد من متطلباتها الخاصة للترجمة المعتمدة.',
+                'faq-q3': 'كم سعر الترجمة المعتمدة في القاهرة؟ <i class="fas fa-chevron-down"></i>',
+                'faq-a3': 'تختلف تكلفة الترجمة المعتمدة حسب عدة عوامل تشمل نوع المستند وعدد الكلمات واللغة المطلوبة وسرعة التسليم المطلوبة. للاستعلام عن سعر دقيق، يرجى التواصل معنا عبر واتساب أو الهاتف مع إرسال المستند المطلوب ترجمته.',
+                'faq-q4': 'كم تستغرق ترجمة المستندات المعتمدة؟ <i class="fas fa-chevron-down"></i>',
+                'faq-a4': 'تختلف مدة الترجمة حسب حجم المستند وتعقيده. نقدم خدمة الترجمة العاجلة خلال 24 ساعة للمستندات القصيرة والمتوسطة، والخدمة العادية يتم تحديدها حسب الاتفاق مع العميل مع مراعاة الدقة والجودة.',
+                'faq-q5': 'هل تقدمون ترجمة عاجلة للمستندات؟ <i class="fas fa-chevron-down"></i>',
+                'faq-a5': 'نعم، نوفر خدمة الترجمة العاجلة للمستندات التي تحتاج إلى تسليم سريع. يمكننا إنجاز الترجمة في غضون 24 ساعة أو حسب الاتفاق مع العميل، مع الحفاظ على أعلى معايير الجودة والدقة.',
+                'faq-q6': 'ما هي اللغات التي تقدمونها في الترجمة؟ <i class="fas fa-chevron-down"></i>',
+                'faq-a6': 'نقدم خدمات الترجمة من وإلى أكثر من 10 لغات تشمل العربية، الإنجليزية، الفرنسية، الألمانية، الإيطالية، الإسبانية، الروسية، الصينية، اليابانية، التركية، والبرتغالية. كما نوفر ترجمة بين أزواج لغوية متعددة حسب احتياجات العميل.',
+                'faq-q7': 'هل يمكن إرسال المستندات عبر واتساب للترجمة؟ <i class="fas fa-chevron-down"></i>',
+                'faq-a7': 'نعم، يمكنك إرسال المستندات المطلوب ترجمتها عبر واتساب بكل سهولة وأمان. نضمن سرية جميع المستندات التي تصلنا، ويمكنك متابعة حالة طلبك عبر نفس القناة.',
+                'faq-q8': 'هل تقدمون ترجمة قانونية معتمدة؟ <i class="fas fa-chevron-down"></i>',
+                'faq-a8': 'نعم، لدينا مترجمون قانونيون معتمدون لتقديم ترجمة قانونية دقيقة وموثقة للعقود، والتوكيلات، والمحاضر القضائية، والأحكام، والاتفاقيات التجارية، وجميع المستندات القانونية الأخرى.',
+                'faq-q9': 'هل تقدمون ترجمة طبية معتمدة؟ <i class="fas fa-chevron-down"></i>',
+                'faq-a9': 'نعم، نوفر ترجمة معتمدة للتقارير الطبية، والتحاليل، والأشعة، والملفات الطبية، والوصفات الطبية، والتاريخ المرضي، وجميع المستندات الطبية بدقة عالية من قبل مترجمين متخصصين في المجال الطبي.',
+                'faq-q10': 'هل يمكن ترجمة جواز السفر؟ <i class="fas fa-chevron-down"></i>',
+                'faq-a10': 'نعم، نقدم ترجمة معتمدة لجوازات السفر وجميع أوراق السفر والهجرة باللغات المطلوبة. هذه الترجمة معتمدة وخاضعة لمعايير السفارات والجهات الرسمية.',
+                'faq-q11': 'أين يوجد مكتب الترجمة المعتمد في القاهرة؟ <i class="fas fa-chevron-down"></i>',
+                'faq-a11': 'يقع مكتبنا الرئيسي في 18 شارع إبراهيم، الكوربة، مصر الجديدة، القاهرة. نخدم العملاء في القاهرة ومصر الجديدة والكوربة وجميع مناطق القاهرة الكبرى، بالإضافة إلى تقديم خدماتنا عبر الإنترنت للعملاء في جميع أنحاء مصر.',
+                'faq-q12': 'هل تقدمون ترجمة شهادات الميلاد والزواج؟ <i class="fas fa-chevron-down"></i>',
+                'faq-a12': 'نعم، نوفر ترجمة معتمدة لشهادات الميلاد والزواج والطلاق والوفاة وجميع المستندات الشخصية. هذه الترجمات معترف بها لدى السفارات والمكاتب الحكومية، وتتم بدقة متناهية لضمان مطابقتها للأصل.',
+                'faq-q13': 'هل تقدمون ترجمة عقود واتفاقيات تجارية؟ <i class="fas fa-chevron-down"></i>',
+                'faq-a13': 'نعم، لدينا فريق متخصص في ترجمة العقود التجارية، واتفاقيات الشركات، وعقود العمل، وعقود الإيجار، وجميع الوثائق التجارية باللغتين العربية والإنجليزية واللغات الأخرى، مع مراعاة الدقة القانونية والاصطلاحية.',
+                
+                // Contact
+                'contact-title': 'تواصل مع مكتب الترجمة المعتمد في القاهرة',
+                'contact-address': '18 شارع إبراهيم، الكوربة، مصر الجديدة، القاهرة',
+                'contact-wa': 'واتساب',
+                'contact-call': 'اتصل بنا',
+                'contact-map': 'خرائط',
+                'contact-cta': 'تواصل معنا عبر واتساب أو الهاتف',
+                'contact-cta-sub': 'نحن هنا لخدمتك على مدار الساعة – ترجمة معتمدة في القاهرة ومصر الجديدة والكوربة.',
+                
+                // Footer
+                'footer-desc': 'ترجمة معتمدة بجودة عالية وسرعة – مكتب ترجمة معتمد في القاهرة، مصر الجديدة، الكوربة.',
+                'footer-links': 'روابط سريعة',
+                'footer-contact': 'تواصل',
+                'footer-wa': 'واتساب',
+                'footer-email': 'البريد الإلكتروني',
+                'footer-copy': '© 2025 Accurate Translation Agency. جميع الحقوق محفوظة – الترجمة المعتمدة في القاهرة.'
             },
             en: {
-                // English translations
+                // Navigation
                 'nav-services': 'Services',
                 'nav-why': 'Why Us',
                 'nav-languages': 'Languages',
                 'nav-faq': 'FAQ',
                 'nav-contact': 'Contact',
                 'cta-quote': 'Get Quote',
+                
+                // Hero
                 'hero-tagline': 'Certified Translation Office in Cairo – Heliopolis – Korba',
                 'hero-title': 'Certified Translation in Cairo <i class="fas fa-check-circle"></i><br>For All Document Types',
                 'hero-desc': 'We provide certified translation services for embassies and government entities in Cairo, Heliopolis, and Korba. Legal, medical, commercial translations, contracts, certificates, and passports in over 10 languages by professional translators with fast delivery and full confidentiality.',
                 'hero-quote': 'Get a Quote',
                 'hero-wa': 'Contact via WhatsApp',
                 'hero-badge': 'Certified Translation in Over 10 Languages',
+                
+                // Trust Cards
                 'trust-1': 'Certified Translation',
                 'trust-2': 'Embassy Approved',
                 'trust-3': 'Government Approved',
@@ -1625,8 +1337,12 @@
                 'trust-6': 'Full Confidentiality',
                 'trust-7': 'Professional Translators',
                 'trust-8': 'Quality Guaranteed',
+                
+                // About
                 'about-title': 'About Us – Certified Translation Office in Cairo',
                 'about-desc': 'Accurate Translation Agency is a certified translation office providing official and attested translation services for individuals, companies, embassies, and government entities in Cairo, Heliopolis, Korba, and all of Egypt. We are committed to accuracy and full confidentiality. Our team of specialized translators in legal, medical, commercial, engineering, technical, and academic fields ensures the highest quality standards for document, certificate, and contract translation.',
+                
+                // Services
                 'services-title': 'Certified Translation Services in Cairo',
                 'svc-1': 'Legal Translation',
                 'svc-2': 'Medical Translation',
@@ -1642,6 +1358,8 @@
                 'svc-12': 'Marriage Certificate Translation',
                 'svc-13': 'Embassy Document Translation',
                 'svc-14': 'Immigration Document Translation',
+                
+                // Why Us
                 'why-title': 'Why Choose Accurate Translation Certified Office?',
                 'why-1': 'Certified Translators',
                 'why-2': 'Long Translation Experience',
@@ -1651,8 +1369,24 @@
                 'why-6': 'Full Document Confidentiality',
                 'why-7': 'Excellent Customer Service',
                 'why-8': 'Thorough Translation Review',
+                
+                // Languages
                 'lang-title': 'Languages We Offer for Certified Translation',
+                'lang-ar': 'Arabic',
+                'lang-en': 'English',
+                'lang-fr': 'French',
+                'lang-de': 'German',
+                'lang-it': 'Italian',
+                'lang-es': 'Spanish',
+                'lang-ru': 'Russian',
+                'lang-zh': 'Chinese',
+                'lang-ja': 'Japanese',
+                'lang-tr': 'Turkish',
+                'lang-pt': 'Portuguese',
+                'lang-ko': 'Korean',
                 'lang-more': 'Certified translation from and into over 10 languages worldwide – serving clients in Cairo, Heliopolis, Korba, and all across Egypt.',
+                
+                // Timeline
                 'timeline-title': 'Steps to Get Certified Translation from Our Office',
                 'step-1': 'Send Your Documents',
                 'step-2': 'Free Review',
@@ -1660,38 +1394,44 @@
                 'step-4': 'Translation Execution',
                 'step-5': 'Quality Review',
                 'step-6': 'Digital or Paper Delivery',
+                
+                // Stats
                 'stat-1': 'Languages',
                 'stat-2': 'Documents Translated',
                 'stat-3': 'Happy Clients',
                 'stat-4': 'Client Satisfaction',
                 'stat-5': 'Years of Translation Experience',
+                
+                // FAQ
                 'faq-title': 'Frequently Asked Questions about Certified Translation',
-                'faq-q1': 'What is certified translation?',
+                'faq-q1': 'What is certified translation? <i class="fas fa-chevron-down"></i>',
                 'faq-a1': 'Certified translation is a stamped and attested translation from a certified translation office, officially recognized by embassies and government entities in Egypt and abroad. These translations follow strict standards and are accompanied by the certified translator\'s stamp and signature.',
-                'faq-q2': 'Is certified translation accepted by embassies and government entities?',
+                'faq-q2': 'Is certified translation accepted by embassies and government entities? <i class="fas fa-chevron-down"></i>',
                 'faq-a2': 'Yes, all our translations are certified, stamped, and recognized by most embassies and government entities in Cairo and Egypt. We recommend checking with the receiving entity for their specific requirements regarding certified translation.',
-                'faq-q3': 'How much does certified translation cost in Cairo?',
+                'faq-q3': 'How much does certified translation cost in Cairo? <i class="fas fa-chevron-down"></i>',
                 'faq-a3': 'The cost of certified translation varies based on document type, word count, language pair, and required delivery speed. For an accurate quote, please contact us via WhatsApp or phone and send the document you need translated.',
-                'faq-q4': 'How long does certified document translation take?',
+                'faq-q4': 'How long does certified document translation take? <i class="fas fa-chevron-down"></i>',
                 'faq-a4': 'The translation timeline depends on document size and complexity. We offer urgent translation service within 24 hours for short to medium documents, and regular service is agreed upon with the client while maintaining accuracy and quality.',
-                'faq-q5': 'Do you offer urgent document translation?',
+                'faq-q5': 'Do you offer urgent document translation? <i class="fas fa-chevron-down"></i>',
                 'faq-a5': 'Yes, we provide urgent translation service for documents that need fast delivery. We can complete translation within 24 hours or as agreed with the client, while maintaining the highest quality and accuracy standards.',
-                'faq-q6': 'What languages do you offer for translation?',
+                'faq-q6': 'What languages do you offer for translation? <i class="fas fa-chevron-down"></i>',
                 'faq-a6': 'We provide translation services from and into over 10 languages including Arabic, English, French, German, Italian, Spanish, Russian, Chinese, Japanese, Turkish, and Portuguese. We also offer translation between multiple language pairs as per client needs.',
-                'faq-q7': 'Can I send documents via WhatsApp for translation?',
+                'faq-q7': 'Can I send documents via WhatsApp for translation? <i class="fas fa-chevron-down"></i>',
                 'faq-a7': 'Yes, you can send documents for translation via WhatsApp easily and securely. We guarantee confidentiality of all documents received, and you can track your request status through the same channel.',
-                'faq-q8': 'Do you provide certified legal translation?',
+                'faq-q8': 'Do you provide certified legal translation? <i class="fas fa-chevron-down"></i>',
                 'faq-a8': 'Yes, we have certified legal translators to provide accurate and attested legal translation for contracts, powers of attorney, court records, judgments, commercial agreements, and all other legal documents.',
-                'faq-q9': 'Do you provide certified medical translation?',
+                'faq-q9': 'Do you provide certified medical translation? <i class="fas fa-chevron-down"></i>',
                 'faq-a9': 'Yes, we provide certified translation for medical reports, lab results, radiology reports, medical files, prescriptions, medical history, and all medical documents with high accuracy by translators specialized in the medical field.',
-                'faq-q10': 'Can you translate passports?',
+                'faq-q10': 'Can you translate passports? <i class="fas fa-chevron-down"></i>',
                 'faq-a10': 'Yes, we provide certified translation for passports and all travel and immigration documents in required languages. This translation is certified and meets embassy and official entity standards.',
-                'faq-q11': 'Where is the certified translation office located in Cairo?',
+                'faq-q11': 'Where is the certified translation office located in Cairo? <i class="fas fa-chevron-down"></i>',
                 'faq-a11': 'Our main office is located at 18 Ibrahim Street, Al Korba, Heliopolis, Cairo. We serve clients in Cairo, Heliopolis, Korba, and all Greater Cairo areas, in addition to providing online services for clients across Egypt.',
-                'faq-q12': 'Do you provide birth and marriage certificate translation?',
+                'faq-q12': 'Do you provide birth and marriage certificate translation? <i class="fas fa-chevron-down"></i>',
                 'faq-a12': 'Yes, we provide certified translation for birth certificates, marriage certificates, divorce certificates, death certificates, and all personal documents. These translations are recognized by embassies and government offices and are done with great precision to ensure they match the original documents.',
-                'faq-q13': 'Do you provide contract and commercial agreement translation?',
+                'faq-q13': 'Do you provide contract and commercial agreement translation? <i class="fas fa-chevron-down"></i>',
                 'faq-a13': 'Yes, we have a specialized team for translating commercial contracts, company agreements, employment contracts, lease agreements, and all business documents in Arabic, English, and other languages, with attention to legal and terminological accuracy.',
+                
+                // Contact
                 'contact-title': 'Contact the Certified Translation Office in Cairo',
                 'contact-address': '18 Ibrahim Street, Al Korba, Heliopolis, Cairo',
                 'contact-wa': 'WhatsApp',
@@ -1699,6 +1439,8 @@
                 'contact-map': 'Map',
                 'contact-cta': 'Contact us via WhatsApp or Phone',
                 'contact-cta-sub': 'We are here to serve you 24/7 – Certified Translation in Cairo, Heliopolis, and Korba.',
+                
+                // Footer
                 'footer-desc': 'Certified translation with high quality and speed – a certified translation office in Cairo, Heliopolis, Korba.',
                 'footer-links': 'Quick Links',
                 'footer-contact': 'Contact',
@@ -1708,6 +1450,9 @@
             }
         };
 
+        // ============================================================
+        // LANGUAGE SWITCHER FUNCTION - الحل الصحيح
+        // ============================================================
         const langToggle = document.getElementById('langToggle');
         const spans = langToggle.querySelectorAll('span');
         let currentLang = 'ar';
@@ -1716,15 +1461,17 @@
             const trans = translations[lang];
             if (!trans) return;
 
-            // Update all elements with data-key attribute
-            document.querySelectorAll('[data-key]').forEach(el => {
-                const key = el.getAttribute('data-key');
-                if (trans[key]) {
+            // 1. تحديث جميع العناصر التي تحمل attribute data-trans
+            document.querySelectorAll('[data-trans]').forEach(el => {
+                const key = el.getAttribute('data-trans');
+                if (trans[key] !== undefined) {
+                    // إذا كان العنصر يحتوي على HTML (مثل أيقونات)
+                    // نستخدم innerHTML للحفاظ على الأيقونات
                     el.innerHTML = trans[key];
                 }
             });
 
-            // Update RTL/LTR
+            // 2. تحديث اتجاه الصفحة RTL/LTR
             const html = document.documentElement;
             if (lang === 'en') {
                 html.setAttribute('dir', 'ltr');
@@ -1734,7 +1481,7 @@
                 html.setAttribute('lang', 'ar');
             }
 
-            // Update active language toggle
+            // 3. تحديث الزر النشط في مبدل اللغة
             spans.forEach(s => {
                 s.classList.remove('active-lang');
                 if (s.dataset.lang === lang) {
@@ -1744,15 +1491,18 @@
 
             currentLang = lang;
 
-            // Track language switch
+            // 4. تتبع تغيير اللغة
             if (typeof trackEvent === 'function') {
                 trackEvent('language_switch', {
                     target_language: lang,
-                    current_language: document.documentElement.lang
+                    current_language: html.getAttribute('lang')
                 });
             }
+
+            console.log('✅ Language switched to:', lang);
         }
 
+        // إضافة مستمعي الأحداث لأزرار تبديل اللغة
         spans.forEach(span => {
             span.addEventListener('click', function(e) {
                 const lang = this.dataset.lang;
@@ -1770,7 +1520,6 @@
                 const isActive = parent.classList.contains('active');
                 parent.classList.toggle('active');
                 
-                // Track FAQ click
                 if (typeof trackEvent === 'function') {
                     const questionText = this.innerText.trim().replace(/[↓↑▼▾]/g, '').trim();
                     trackEvent('faq_click', {
@@ -1805,7 +1554,6 @@
             observer.observe(el);
         });
 
-        // Initial reveal for items already visible
         window.addEventListener('load', () => {
             document.querySelectorAll('.reveal').forEach(el => {
                 const rect = el.getBoundingClientRect();
@@ -1828,7 +1576,39 @@
             });
         });
 
-        console.log('✅ Accurate Translation Agency - SEO & Marketing Ready');
+        // ============================================================
+        // SETUP TRACKING FOR BUTTONS
+        // ============================================================
+        function setupTracking(selector, eventName) {
+            document.querySelectorAll(selector).forEach(el => {
+                el.addEventListener('click', function(e) {
+                    let location = 'unknown';
+                    if (this.closest('.hero')) location = 'hero';
+                    else if (this.closest('.contact-section')) location = 'contact';
+                    else if (this.closest('footer')) location = 'footer';
+                    else if (this.closest('.floating-buttons')) location = 'floating';
+                    else if (this.closest('header')) location = 'header';
+
+                    if (this.dataset.location) location = this.dataset.location;
+
+                    trackEvent(eventName, {
+                        location: location,
+                        button_name: this.innerText.trim() || this.getAttribute('aria-label') || 'button',
+                        page_language: document.documentElement.lang || 'ar'
+                    });
+                });
+            });
+        }
+
+        // تطبيق التتبع بعد تحميل الصفحة
+        document.addEventListener('DOMContentLoaded', function() {
+            setupTracking('a[href*="wa.me"], a[href*="whatsapp"]', 'whatsapp_click');
+            setupTracking('a[href^="tel:"]', 'phone_click');
+            setupTracking('a[href="#contact"], .btn-primary[href="#contact"]', 'quote_click');
+            setupTracking('a[href*="maps.google"], a[href*="google.com/maps"]', 'map_click');
+        });
+
+        console.log('✅ Accurate Translation Agency - Fully Loaded');
     </script>
 </body>
 </html>
