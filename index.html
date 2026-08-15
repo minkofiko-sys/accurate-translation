@@ -52,6 +52,8 @@
 </script>
     <!-- Font & Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+      
 <style>
         /* Reset & Base */
         * {
@@ -86,15 +88,20 @@
         }
 
         /* ============================================================
-           COLORS - PREMIUM DARK NAVY THEME (تم إزالة الذهبي بالكامل)
+           COLORS - PREMIUM DARK BLUE THEME
+           اللون الأساسي أزرق غامق والثاني أفتح منه بدرجتين
            ============================================================ */
         :root {
-            --primary-dark: #0B1220;
-            --gold: #334155;
-            --gold-light: #475569;
+            --primary-dark: #0A1628;
+            --primary-blue: #0F2847;
+            --primary-blue-light: #1A3A5C;
+            --secondary-blue: #2A4A6E;
+            --accent-blue: #3B6A8C;
+            --gold: #2A4A6E;
+            --gold-light: #3B6A8C;
             --white: #ffffff;
             --gray-bg: #F8FAFC;
-            --shadow: 0 10px 30px rgba(15, 23, 42, 0.06);
+            --shadow: 0 10px 30px rgba(10, 22, 40, 0.06);
             --border-radius: 20px;
             --transition: 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
         }
@@ -107,9 +114,9 @@
             border: 1px solid rgba(255, 255, 255, 0.25);
         }
 
-        /* Buttons - Primary (Dark Navy) */
+        /* Buttons - Primary (Dark Blue) */
         .btn-primary {
-            background: #0B1220;
+            background: #0F2847;
             color: #FFFFFF;
             padding: 14px 36px;
             border-radius: 50px;
@@ -118,22 +125,22 @@
             border: none;
             cursor: pointer;
             transition: var(--transition);
-            box-shadow: 0 4px 12px rgba(11, 18, 32, 0.15);
+            box-shadow: 0 4px 12px rgba(15, 40, 71, 0.15);
             display: inline-flex;
             align-items: center;
             gap: 10px;
         }
         .btn-primary:hover {
             transform: translateY(-3px);
-            box-shadow: 0 8px 24px rgba(11, 18, 32, 0.25);
-            background: #1F2937;
+            box-shadow: 0 8px 24px rgba(15, 40, 71, 0.25);
+            background: #1A3A5C;
         }
 
-        /* Buttons - Outline (Dark Navy Border) */
+        /* Buttons - Outline (Blue Border) */
         .btn-outline {
             background: transparent;
-            border: 2px solid #1F2937;
-            color: #1F2937;
+            border: 2px solid #1A3A5C;
+            color: #1A3A5C;
             padding: 12px 32px;
             border-radius: 50px;
             font-weight: 600;
@@ -143,14 +150,14 @@
             gap: 8px;
         }
         .btn-outline:hover {
-            background: #0B1220;
+            background: #0F2847;
             color: #FFFFFF;
-            border-color: #0B1220;
+            border-color: #0F2847;
             transform: scale(1.02);
         }
 
         /* ============================================================
-           HEADER - Premium White
+           HEADER - Premium White with Blue accents
            ============================================================ */
         header {
             background: #FFFFFF;
@@ -158,7 +165,7 @@
             position: sticky;
             top: 0;
             z-index: 1000;
-            box-shadow: 0 1px 0 rgba(15, 23, 42, 0.04);
+            box-shadow: 0 1px 0 rgba(15, 40, 71, 0.06);
             padding: 12px 0;
             border-bottom: 1px solid #E2E8F0;
         }
@@ -175,7 +182,7 @@
             gap: 10px;
             font-size: 1.4rem;
             font-weight: 700;
-            color: #0B1220;
+            color: #0F2847;
         }
         .logo img {
             height: 50px;
@@ -184,7 +191,7 @@
             object-fit: contain;
         }
         .logo span {
-            color: #0B1220;
+            color: #0F2847;
             font-weight: 700;
         }
         nav {
@@ -196,7 +203,7 @@
         nav a {
             font-weight: 500;
             font-size: 0.95rem;
-            color: #1F2937;
+            color: #1A3A5C;
             transition: 0.2s;
             position: relative;
             white-space: nowrap;
@@ -208,7 +215,7 @@
             left: 0;
             width: 0;
             height: 2px;
-            background: #0B1220;
+            background: #0F2847;
             transition: 0.3s;
         }
         nav a:hover::after {
@@ -231,7 +238,7 @@
             transition: 0.2s;
         }
         .lang-toggle .active-lang {
-            background: #0B1220;
+            background: #0F2847;
             color: #FFFFFF;
         }
         .cta-header {
@@ -241,7 +248,7 @@
         }
 
         /* ============================================================
-           HERO - White & Clean
+           HERO - White & Clean with Blue accents
            ============================================================ */
         .hero {
             padding: 40px 0 60px;
@@ -264,27 +271,27 @@
             width: auto;
             max-width: 280px;
             object-fit: contain;
-            filter: drop-shadow(0 8px 24px rgba(11, 18, 32, 0.08));
+            filter: drop-shadow(0 8px 24px rgba(15, 40, 71, 0.10));
         }
         @keyframes logoFloat {
             0%, 100% { transform: translateY(0px); }
             50% { transform: translateY(-12px); }
         }
         @keyframes logoGlow {
-            0% { filter: drop-shadow(0 8px 20px rgba(11, 18, 32, 0.05)); }
-            100% { filter: drop-shadow(0 12px 32px rgba(11, 18, 32, 0.12)); }
+            0% { filter: drop-shadow(0 8px 20px rgba(15, 40, 71, 0.06)); }
+            100% { filter: drop-shadow(0 12px 32px rgba(15, 40, 71, 0.14)); }
         }
         .hero-logo-section .logo-title {
             font-size: 2.2rem;
             font-weight: 700;
-            color: #0B1220;
+            color: #0F2847;
             margin-top: 10px;
         }
         .hero-logo-section .logo-title span {
-            color: #334155;
+            color: #1A3A5C;
         }
         .hero-logo-section .logo-sub {
-            color: #64748B;
+            color: #3B6A8C;
             font-size: 1.1rem;
             margin-top: 4px;
         }
@@ -300,15 +307,15 @@
             font-size: 3rem;
             font-weight: 700;
             line-height: 1.2;
-            color: #0B1220;
+            color: #0F2847;
             margin-bottom: 20px;
         }
         .hero-content h1 i {
-            color: #334155;
+            color: #1A3A5C;
         }
         .hero-content p {
             font-size: 1.1rem;
-            color: #475569;
+            color: #3B6A8C;
             margin-bottom: 32px;
             max-width: 90%;
         }
@@ -319,13 +326,13 @@
         }
         /* Hero Outline Button override */
         .hero-buttons .btn-outline {
-            border-color: #1F2937;
-            color: #1F2937;
+            border-color: #1A3A5C;
+            color: #1A3A5C;
         }
         .hero-buttons .btn-outline:hover {
-            background: #0B1220;
+            background: #0F2847;
             color: #FFFFFF;
-            border-color: #0B1220;
+            border-color: #0F2847;
         }
         .hero-image {
             display: flex;
@@ -335,18 +342,18 @@
         .hero-image img {
             max-width: 100%;
             border-radius: 30px;
-            box-shadow: 0 8px 24px rgba(11, 18, 32, 0.06);
+            box-shadow: 0 8px 24px rgba(15, 40, 71, 0.06);
         }
         .floating-badge {
             background: #F8FAFC;
             padding: 12px 24px;
             border-radius: 60px;
             border: 1px solid #E2E8F0;
-            box-shadow: 0 4px 12px rgba(15, 23, 42, 0.04);
+            box-shadow: 0 4px 12px rgba(15, 40, 71, 0.04);
             display: inline-block;
             margin-top: 20px;
             font-weight: 600;
-            color: #1F2937;
+            color: #1A3A5C;
         }
 
         /* ============================================================
@@ -366,22 +373,22 @@
             padding: 20px 12px;
             border-radius: 16px;
             text-align: center;
-            box-shadow: 0 2px 8px rgba(15, 23, 42, 0.02);
+            box-shadow: 0 2px 8px rgba(15, 40, 71, 0.02);
             transition: var(--transition);
             border: 1px solid #E2E8F0;
         }
         .trust-card:hover {
             transform: translateY(-6px);
-            border-color: #0B1220;
-            box-shadow: 0 12px 24px rgba(11, 18, 32, 0.06);
+            border-color: #0F2847;
+            box-shadow: 0 12px 24px rgba(15, 40, 71, 0.06);
         }
         .trust-card i {
             font-size: 2rem;
-            color: #0B1220;
+            color: #0F2847;
             margin-bottom: 6px;
         }
         .trust-card span {
-            color: #1F2937;
+            color: #1A3A5C;
         }
 
         /* ============================================================
@@ -390,18 +397,18 @@
         .section-title {
             font-size: 2.5rem;
             font-weight: 700;
-            color: #0B1220;
+            color: #0F2847;
             margin-bottom: 12px;
         }
         .section-subtitle {
-            color: #64748B;
+            color: #3B6A8C;
             font-size: 1.1rem;
             margin-bottom: 40px;
         }
         .gold-line {
             width: 60px;
             height: 3px;
-            background: #0B1220;
+            background: #0F2847;
             border-radius: 4px;
             margin: 12px 0 24px;
         }
@@ -420,7 +427,10 @@
             align-items: center;
         }
         .about-section img {
-            box-shadow: 0 8px 24px rgba(11, 18, 32, 0.06);
+            box-shadow: 0 8px 24px rgba(15, 40, 71, 0.06);
+        }
+        .about-section p {
+            color: #2A4A6E;
         }
 
         /* ============================================================
@@ -439,24 +449,24 @@
             background: #FFFFFF;
             padding: 28px 20px;
             border-radius: var(--border-radius);
-            box-shadow: 0 2px 8px rgba(15, 23, 42, 0.02);
+            box-shadow: 0 2px 8px rgba(15, 40, 71, 0.02);
             transition: var(--transition);
             border: 1px solid #E2E8F0;
             border-bottom: 3px solid transparent;
             text-align: center;
         }
         .service-card:hover {
-            border-bottom-color: #0B1220;
+            border-bottom-color: #0F2847;
             transform: translateY(-8px);
-            box-shadow: 0 12px 32px rgba(11, 18, 32, 0.06);
+            box-shadow: 0 12px 32px rgba(15, 40, 71, 0.06);
         }
         .service-card i {
             font-size: 2.6rem;
-            color: #0B1220;
+            color: #0F2847;
             margin-bottom: 16px;
         }
         .service-card h4 {
-            color: #1F2937;
+            color: #1A3A5C;
         }
 
         /* ============================================================
@@ -476,20 +486,20 @@
             padding: 24px;
             border-radius: 20px;
             border: 1px solid #E2E8F0;
-            box-shadow: 0 2px 8px rgba(15, 23, 42, 0.02);
+            box-shadow: 0 2px 8px rgba(15, 40, 71, 0.02);
             transition: var(--transition);
             text-align: center;
         }
         .why-item:hover {
             transform: scale(1.02);
-            box-shadow: 0 12px 32px rgba(11, 18, 32, 0.06);
+            box-shadow: 0 12px 32px rgba(15, 40, 71, 0.06);
         }
         .why-item i {
             font-size: 2.2rem;
-            color: #0B1220;
+            color: #0F2847;
         }
         .why-item h4 {
-            color: #1F2937;
+            color: #1A3A5C;
         }
 
         /* ============================================================
@@ -510,13 +520,13 @@
             border-radius: 16px;
             text-align: center;
             font-weight: 600;
-            color: #1F2937;
-            box-shadow: 0 2px 8px rgba(15, 23, 42, 0.02);
+            color: #1A3A5C;
+            box-shadow: 0 2px 8px rgba(15, 40, 71, 0.02);
             border: 1px solid #E2E8F0;
             transition: 0.2s;
         }
         .lang-card:hover {
-            border-color: #0B1220;
+            border-color: #0F2847;
             background: #F8FAFC;
             transform: translateY(-2px);
         }
@@ -542,7 +552,7 @@
             flex: 1 1 120px;
         }
         .step-num {
-            background: #0B1220;
+            background: #0F2847;
             color: #FFFFFF;
             width: 50px;
             height: 50px;
@@ -555,14 +565,14 @@
             margin-bottom: 8px;
         }
         .step span {
-            color: #1F2937;
+            color: #1A3A5C;
         }
 
         /* ============================================================
-           STATS - DARK PREMIUM
+           STATS - DARK BLUE PREMIUM
            ============================================================ */
         .stats-section {
-            background: #0B1220;
+            background: #0F2847;
             color: white;
             padding: 60px 0;
         }
@@ -578,7 +588,7 @@
             color: #FFFFFF;
         }
         .stats-grid div div:last-child {
-            color: #CBD5E1;
+            color: #8AB3D0;
         }
 
         /* ============================================================
@@ -598,16 +608,16 @@
             cursor: pointer;
             display: flex;
             justify-content: space-between;
-            color: #0B1220;
+            color: #0F2847;
         }
         .faq-question i {
-            color: #64748B;
+            color: #3B6A8C;
         }
         .faq-answer {
             max-height: 0;
             overflow: hidden;
             transition: 0.4s;
-            color: #475569;
+            color: #3B6A8C;
         }
         .faq-item.active .faq-answer {
             max-height: 200px;
@@ -629,13 +639,13 @@
             align-items: start;
         }
         .contact-info i {
-            color: #0B1220;
+            color: #0F2847;
             width: 30px;
         }
         .contact-info p {
             margin: 12px 0;
             font-size: 1.05rem;
-            color: #1F2937;
+            color: #1A3A5C;
         }
         .contact-info .contact-buttons {
             margin-top: 25px;
@@ -649,24 +659,27 @@
             color: #FFFFFF !important;
         }
         .contact-buttons .btn-outline[style*="border-color:var(--primary-dark)"] {
-            border-color: #0B1220 !important;
-            color: #0B1220 !important;
+            border-color: #0F2847 !important;
+            color: #0F2847 !important;
         }
         .contact-buttons .btn-outline[style*="border-color:var(--primary-dark)"]:hover {
-            background: #0B1220 !important;
+            background: #0F2847 !important;
             color: #FFFFFF !important;
         }
-        /* Contact card - remove gold */
+        /* Contact card - blue accent */
         .contact-section .fa-comments {
-            color: #0B1220 !important;
+            color: #0F2847 !important;
         }
         .contact-section h3 {
-            color: #0B1220 !important;
+            color: #0F2847 !important;
         }
         .contact-section .contact-grid > div:last-child {
             background: #FFFFFF !important;
             border: 1px solid #E2E8F0;
-            box-shadow: 0 8px 24px rgba(11, 18, 32, 0.04) !important;
+            box-shadow: 0 8px 24px rgba(15, 40, 71, 0.04) !important;
+        }
+        .contact-section .contact-grid > div:last-child p {
+            color: #3B6A8C !important;
         }
 
         /* ============================================================
@@ -685,13 +698,13 @@
             width: 56px;
             height: 56px;
             border-radius: 50%;
-            background: #0B1220;
+            background: #0F2847;
             color: #FFFFFF;
             display: flex;
             align-items: center;
             justify-content: center;
             font-size: 1.8rem;
-            box-shadow: 0 4px 16px rgba(11, 18, 32, 0.2);
+            box-shadow: 0 4px 16px rgba(15, 40, 71, 0.2);
             transition: 0.2s;
             border: none;
             cursor: pointer;
@@ -704,15 +717,15 @@
             color: white;
         }
         .floating-btn.phone {
-            background: #0B1220;
+            background: #0F2847;
             color: white;
         }
 
         /* ============================================================
-           FOOTER - Dark Premium
+           FOOTER - Dark Blue Premium
            ============================================================ */
         footer {
-            background: #0B1220;
+            background: #0F2847;
             color: rgba(255,255,255,0.8);
             padding: 50px 0 20px;
         }
@@ -727,16 +740,16 @@
             color: #FFFFFF;
         }
         .footer-logo span {
-            color: #CBD5E1;
+            color: #8AB3D0;
         }
         .footer-grid p {
-            color: #94A3B8;
+            color: #8AB3D0;
         }
         .footer-links a {
             display: block;
             margin: 6px 0;
             transition: 0.2s;
-            color: #CBD5E1;
+            color: #8AB3D0;
         }
         .footer-links a:hover {
             color: #FFFFFF;
@@ -746,7 +759,7 @@
             padding-top: 20px;
             margin-top: 30px;
             text-align: center;
-            color: #94A3B8;
+            color: #8AB3D0;
         }
 
         /* ============================================================
@@ -848,6 +861,8 @@
             }
         }
 </style>
+
+      
 </head>
 <body>
     <!-- Header -->
